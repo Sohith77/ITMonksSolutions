@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box; 
+    font-family: inter;
+}
+
+#topTickMarkDiv {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.topDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.circleDiv1{
+    height: 30px;
+    width: 30px;
+    border: 2px solid #FFD600;
+    border-radius: 50%; 
+    background-color: #FFD600; 
+    justify-content: center;
+    align-items: center;
+    padding-left: 0.5%;
+} 
+.iconx{
+  padding-left: 20%;
+}
+
+
+
+#lineDiv1{
+    width: 40%;
+    height: 2px;
+    background-color: #FFD600;
+    margin-top: 14px;
+}
+
+#iconsDiv3{
+
+    margin-top: 7%;
+
+    width: 100vw;
+
+    display: flex;
+
+    justify-content: center;
+
+    height: 150px;
+
+    /* border: 1px dotted red; */
+
+    margin-bottom: 3px;
+
+}
+
+#eventDiv {
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #666666; 
+    width:50%; 
+    margin-top: -7%; 
+    border-radius: 3%; 
+    margin-bottom: 2%;
+    
+}   
+
+@font-face {
+    font-family: inter;
+    src: url("../fonts/Inter-VariableFont_slnt\,wght.ttf");
+} 
+
+#bookingHeading {
+    font-family: inter;  
+    font-weight:700; 
+    font-size: 1.5rem;
+} 
+
+#paraBooking {
+    font-family: inter;  
+    font-weight:500; 
+    font-size: 1rem;
+} 
+.lastHeading {
+  font-family: inter;
+  font-weight: 700; 
+  font-size:1.4rem;
+} 
+
+
+
+#eventImage {
+    width:45%;
+} 
+
+
+#lastButtonContainer {
+    /* background-color: aqua;  */
+    width:50%;
+    display: flex;
+    justify-content: center;
+}
+#homeButton {
+    background-color: #FFD600; 
+    width:20%; 
+    height:30px;
+    border:none; 
+    border-radius: 4px; 
+    margin-bottom: 3%; 
+    color:white; 
+    font-weight: 500; 
+    cursor: pointer;
+}

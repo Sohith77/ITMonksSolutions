@@ -1,0 +1,307 @@
+* {
+    font-family: inter;
+}
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}  
+
+.wholeDiv {
+    background-color: white; 
+    display:flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    /* height:100vh; */
+} 
+
+#chooseParaDiv1 {
+    position: absolute; 
+    top:20%; 
+    left:24%;  
+    color:#FFD600;
+}
+
+#chooseParaDiv2 {
+    position: absolute; 
+    top:20%; 
+    left:68%; 
+} 
+
+
+
+#iconsDiv2{
+    margin-top: 7%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    /* border: 1px dotted red; */
+    margin-bottom: 3px; 
+} 
+
+.circleDiv2{
+    height: 30px;
+    width: 30px;
+    border: 3.5px solid #FFD600;
+    border-radius: 50%;
+    padding-left: 0.3%;
+}
+ 
+#circleDiv1 {
+    background-color: #FFD600;
+}
+
+
+#chooseParaYour1 {
+    color:#FFD600;
+}
+#lineDiv2{
+    width: 40%;
+    height: 2px;
+    background-color: #FFD600;
+    margin-top: 14px;
+}
+
+#blackContainer{
+    transform: translate(0px,-50px);
+    background-color: black;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-top: 40px;
+    height: 550px; 
+    padding-inline-start: 6%; 
+    margin-top: -2%;
+} 
+
+#blackContainer label {
+    font-weight: 500;
+}
+
+#blackContainer input{
+color:white;
+}
+.infoCss{
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+#emailLabel {
+    color:white; 
+} 
+
+.inputDivs{
+    width: 90%;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+}
+
+.labelAndInput{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+
+}
+
+.inputDivs label{
+    color: aliceblue;
+}
+.inputDivs input{
+    width:100%;
+    height: 50px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.dataPrivacy {
+    color:white;
+}
+
+#labelAndInput1 {
+    margin-right: 2%;
+} 
+
+.emailAndInputDiv {
+    display: flex; 
+    flex-direction: column;  
+    align-items: flex-start; 
+    /* margin-right:0%; */
+    width:50% ;
+    margin-right: 1%;
+} 
+
+.emailAndInputDiv input {
+    width:100%;
+    height: 50px;
+    border: 1px solid white;
+    background-color: transparent; 
+  
+
+}  
+
+
+#reqOtpButton {
+    height: 50px; 
+    width:15%; 
+    margin-top: 2.9%; 
+    background-color: #666666; 
+    border: none;  
+    color:white; 
+    font-weight: 600;   
+    margin-right: 1%;
+} 
+
+#verifyButton {
+    height: 50px; 
+    width:15%; 
+    margin-top: 2.9%; 
+    background-color: #666666; 
+    border: none;  
+    color:white; 
+    font-weight: 600; 
+    margin-right: 1%;
+}
+
+.emailAndOtpDiv {
+    display:flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    width:100%; 
+    padding-right: 8%;
+}
+
+.OtpDiv {
+    display: flex; 
+    flex-direction: column;  
+    align-items: flex-start; 
+    width:15%; 
+    margin-right: 1%;
+
+} 
+
+#otpInput {
+    width:100%;
+    height: 50px;
+    background-color: transparent; 
+    border: 1px solid white; 
+
+} 
+
+
+.dataPrivacyDiv {
+    width:90%;
+    background-color: #666666;  
+    color:white; 
+    border:none;
+    border-radius: 4px; 
+    padding-inline: 1%; 
+}
+
+.dataPrivacyPara1 {
+    text-align: justify; 
+    font-weight: 500; 
+    font-size: 0.7rem;
+}
+
+.checkAndInput{
+    display: flex; 
+    align-items: flex-start;
+}
+
+.checkAndInput label {
+    font-family: inter; 
+    font-size: 0.8rem; 
+    font-weight: 500;
+} 
+
+.dataPrivacyPara2 {
+    font-weight: 500; 
+    font-size: 0.6rem;  
+    /* padding-left: -20%;   */
+    text-align: left;
+}
+
+
+.buttonsDiv {
+    display:flex; 
+    margin-top: -3%;
+    width: 60%;
+    /* flex-direction: row;  */
+    justify-content: space-between; 
+    /* align-items:flex-start;   */ 
+    margin-bottom: 4%;
+}
+
+#iconButton {
+    background-color: white; 
+    border-radius: 4px; 
+    border:2px solid #FFD600;  
+    color:#FFD600; 
+    width:90px; 
+    height:33px;   
+    cursor: pointer;
+    /* padding-right: 4%;    */
+    /* margin-right: 20%; */ 
+
+}  
+
+#confirmButton {
+    background-color:#FFD600; 
+    border-radius: 4px; 
+    border:2px solid #FFD600;  
+    color:black;
+    width:100px; 
+    height:33px;   
+    font-weight: 700; 
+    font-size: 0.8rem; 
+    cursor: pointer;
+}
+
+#angleLeft {
+    margin-right: 24%;
+} 
+
+#otpInput::-webkit-outer-spin-button,
+#otpInput::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+@font-face {
+    font-family: inter;
+    src: url("../fonts/Inter-VariableFont_slnt\,wght.ttf");
+}  
+@media only screen and (max-width:1080px) {   
+
+#verifyButton,#reqOtpButton {
+    margin-top: 3.3%;
+}
+
+} 
+
+@media only screen and (max-width:1000px) {   
+
+    #verifyButton,#reqOtpButton {
+        margin-top: 4.5%;
+    }
+    
+    } 
+
+    @media only screen and (max-width:510px) {   
+
+        #verifyButton,#reqOtpButton {
+            margin-top: 8%;
+        }
+        
+        }

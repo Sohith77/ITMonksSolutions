@@ -1,0 +1,364 @@
+.slick-slide > div {
+    width: 380px;
+    margin: 0 50px;
+}
+.slick-list {
+    margin: 0 -0px;
+}
+.slick-dots li button:before {
+    
+    color: gray; /* Change this to your desired color for inactive dots */
+}
+
+.slick-dots li.slick-active button:before,
+.slick-dots li button:hover::before {
+    color: goldenrod; /* Change this to your desired color for the active dot */
+}
+.slick-dots{
+    position: absolute;
+    bottom: -70px;
+    width: max-content;
+    left: 46%;
+    /* border: 1px solid goldenrod; */
+    border-radius: 20px;
+   
+}
+.slider2002{
+    width: 99%;
+}
+.cards2002{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 5%;
+    margin-bottom: 20px;
+    /* height: 60vh; */
+    
+}
+.profile2002{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   width: 100%;
+   background-image: url(../Photos/quote.png);
+   background-repeat: no-repeat;
+   background-position: top right;
+}
+
+
+.names2002{
+    width: 70%;
+}
+.names2002 p{
+    
+    /* line-height: 1px; */
+    padding: 2%;
+    margin-top: -15px;
+    font-size: medium;
+    font-weight: 400;
+    color: gray;
+}
+.profiledesc2002{
+    font-size: large;
+    padding: 2%;
+    color: gray;
+}
+.dateBox2002{
+    background-color: goldenrod;
+    /* margin-left: 2%; */
+    color: white;
+    display: flex;
+    letter-spacing: 1px;
+    font-weight: 400;
+    justify-content: flex-start;
+    border-radius: 5px;
+    align-items: center;
+    height: 9vh;
+    
+}
+.dates3131{
+    font-size: 20px;
+}
+.dateBox2002 h3{
+    margin-left: 5%;
+}
+.messageIcon3131{
+    line-height: 0;
+    /* font-size: 10px; */
+    width: 60px;
+    height: 10px;
+    /* margin-top: 10px; */
+    /* margin-left: 50px; */
+    color: goldenrod;
+}
+.messageIcon3131 p{
+    font-size: 50px;
+    /* margin-top: 10px; */
+    transform: rotate(90deg);
+}
+
+@media  screen and (max-width:1200px) {
+    .slick-dots{
+        left: 35%;
+    }
+    .slick-slide > div {
+        width: 350px;
+        margin: 0 50px;
+    }
+   
+    .profile2002 img{
+        width: 80px;
+        margin-top: 5%;
+    }
+    .names2002{
+        margin-top: 15%;
+        margin-left: 2%;
+    }
+    .names2002 h4{
+        font-size: 21px !important;
+        /* line-height: 25px; */
+    }
+    .names2002 p{
+        font-size: 18px !important;
+        margin-top: 2%;
+    }
+    .profiledesc2002{
+        font-size: 16px !important;
+    }
+    .dateBox2002{
+        width: 300px;
+        height: 50px;
+    }
+    .dates3131{
+        padding-left: 10%;
+        font-size: 18px;
+    }
+    .messageIcon3131{
+        line-height: 0;
+        width: 60px;
+        height: 10px;
+        color: goldenrod;
+    }
+    
+}
+@media  screen and (max-width:1070px) {
+    .slick-dots{
+        left: 35%;
+    }
+    .slick-slide > div {
+        width: 280px;
+        margin: 0 50px;
+    }
+   
+    .profile2002 img{
+        width: 70px;
+        margin-top: 5%;
+    }
+    .names2002{
+        margin-top: 15%;
+        margin-left: 2%;
+    }
+    .names2002 h4{
+        font-size: 21px !important;
+        /* line-height: 25px; */
+    }
+    .names2002 p{
+        font-size: 18px !important;
+        margin-top: 2%;
+    }
+    .profiledesc2002{
+        font-size: 16px !important;
+    }
+    .dateBox2002{
+        width: 250px;
+        height: 50px;
+    }
+    .dates3131{
+        padding-left: 10%;
+        font-size: 18px;
+    }
+    .messageIcon3131{
+        line-height: 0;
+        width: 60px;
+        height: 10px;
+        color: goldenrod;
+    }
+    
+}
+@media  screen and (max-width:860px) {
+    .slick-dots{
+        left: 35%;
+    }
+    .slick-slide > div {
+        width: 250px;
+        margin: 0 50px;
+    }
+   
+    .profile2002 img{
+        width: 60px;
+        margin-top: 5%;
+    }
+    .names2002{
+        margin-top: 15%;
+        margin-left: 2%;
+    }
+    .names2002 h4{
+        font-size: 18px !important;
+        /* line-height: 25px; */
+    }
+    .names2002 p{
+        font-size: 16px !important;
+        margin-top: 2%;
+    }
+    .profiledesc2002{
+        font-size: 14px !important;
+    }
+    .dateBox2002{
+        width: 220px;
+        height: 40px;
+    }
+    .dates3131{
+        padding-left: 10%;
+        font-size: 16px;
+    }
+    .messageIcon3131{
+        line-height: 0;
+        width: 60px;
+        height: 10px;
+        color: goldenrod;
+    }
+    
+}
+@media  screen and (max-width:768px) {
+    .slick-dots{
+        left: 35%;
+    }
+    .slick-slide > div {
+        width: 200px;
+        margin: 0 50px;
+    }
+   
+    .profile2002 img{
+        width: 45px;
+        margin-top: 5%;
+    }
+    .names2002{
+        margin-top: 15%;
+        margin-left: 2%;
+    }
+    .names2002 h4{
+        font-size: 14px !important;
+        /* line-height: 25px; */
+    }
+    .names2002 p{
+        font-size: 12px !important;
+        margin-top: 2%;
+    }
+    .profiledesc2002{
+        font-size: 10px !important;
+    }
+    .dateBox2002{
+        width: 150px;
+        height: 30px;
+    }
+    .dates3131{
+        padding-left: 10%;
+        font-size: 12px;
+    }
+    .messageIcon3131{
+        line-height: 0;
+        width: 20px;
+        height: 10px;
+        color: goldenrod;
+    }
+    .messageIcon3131 p{
+        font-size: 25px;
+    }
+}
+@media  screen and (max-width:450px) {
+    .slick-dots{
+        left: 35%;
+    }
+    .slick-slide > div {
+        width: 170px;
+        margin: 0 50px;
+    }
+   
+    .profile2002 img{
+        width: 45px;
+        margin-top: 5%;
+    }
+    .names2002{
+        margin-top: 15%;
+        margin-left: 2%;
+    }
+    .names2002 h4{
+        font-size: 14px !important;
+        /* line-height: 25px; */
+    }
+    .names2002 p{
+        font-size: 12px !important;
+        margin-top: 2%;
+    }
+    .profiledesc2002{
+        font-size: 10px !important;
+    }
+    .dateBox2002{
+        width: 150px;
+        height: 30px;
+    }
+    .dates3131{
+        padding-left: 10%;
+        font-size: 12px;
+    }
+    .messageIcon3131{
+        line-height: 0;
+        width: 20px;
+        height: 10px;
+        color: goldenrod;
+    }
+    .messageIcon3131 p{
+        font-size: 25px;
+    }
+}
+@media  screen and (max-width:350px) {
+    .slick-dots{
+        left: 35%;
+    }
+    .slick-slide > div {
+        width: 250px;
+        margin: 0 50px;
+    }
+    .profile2002 img{
+        width: 60px;
+        margin-top: 5%;
+    }
+    .names2002{
+        margin-top: 15%;
+        margin-left: 2%;
+    }
+    .names2002 h4{
+        font-size: 18px !important;
+        /* line-height: 25px; */
+    }
+    .names2002 p{
+        font-size: 16px !important;
+        margin-top: 2%;
+    }
+    .profiledesc2002{
+        font-size: 14px !important;
+    }
+    .dateBox2002{
+        width: 220px;
+        height: 40px;
+    }
+    .dates3131{
+        padding-left: 10%;
+        font-size: 16px;
+    }
+    .messageIcon3131{
+        line-height: 0;
+        width: 60px;
+        height: 10px;
+        color: goldenrod;
+    }
+}

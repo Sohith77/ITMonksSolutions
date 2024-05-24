@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	/* font-family: "Titillium Web", sans-serif; */
+}
+html {
+	scroll-behavior: smooth;
+}
+
+:root {
+	--mainColor: #29335c;
+	--mainColorLight: #5767aa;
+	--secondaryColor: #db2b39;
+	/* --textColor: hsl(0, 0%, 93%); */
+	--textColor : black;
+}
+
+.header3131 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	width: 100%;
+	padding: 0 2rem;
+	background-color: white;
+	color: var(--textColor);
+	position: relative;
+	top: 0;
+	z-index: 50;
+	font-size: 20px;
+	font-weight:bold ;
+	/* overflow: hidden; */
+	/* position: relative; */
+
+}
+
+
+nav a {
+	margin: 0 3rem;
+	color: var(--textColor);
+	text-decoration: none;
+	/* position: sticky; */
+	/* z-index: 1; */
+}
+
+nav a:hover {
+	color: var(--secondaryColor);
+}
+
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+header div,
+nav {
+	display: flex;
+	align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+	header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	header .hamburger{
+		display: block;
+	}
+
+	header nav {
+		position: fixed;
+		top: -100vh;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: var(--mainColor);
+		transition: 1s;
+	}
+
+	header .responsive_nav {
+		transform: translateY(100vh);
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav a {
+		font-size: 1.5rem;
+	}
+
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+	header .hamburger{
+		display: none;
+	}
+	.dropbtn {
+		
+		color: white;
+		padding: 16px;
+		font-size: 16px;
+		border: none;
+	  }
+	  
+	  .dropdown {
+		position: relative;
+		display: inline-block;
+	  }
+	  
+	  .drop {
+		display: none;
+		position: absolute;
+		background-color: #f1f1f1;
+		min-width: 260px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+		border-radius: 10px;
+		
+	  }
+
+	  .drop li{
+		text-decoration: none;
+		color : black
+	  }
+	  
+	  .drop a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	  }
+	  
+	  .drop a:hover {background-color: #ddd;}
+	  
+	  .dropdown:hover .drop {display: block;}
+	  
+	  
+	
+}
+.drop{
+	display: none;
+}
+.tooltip {
+	position: relative;
+	display: inline-block;
+	/* border-bottom: 1px dotted black; */
+	/* color: #eee; */
+	margin: 1px;
+  }
+  
+  .tooltip .tooltiptext {
+	visibility: hidden;
+	min-width: 240px;
+	background-color: white;
+	color: black;
+	text-align: center;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	border-radius: 6px;
+	padding: 5px 0;
+	/* max-height: 200px; */
+	height: 110px;
+	/* margin: 40px; */
+	
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	top: 100%;
+	/* left: 50%; */
+	margin-left: -30px;
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .tooltip:hover .tooltiptext {
+	/* background-color: #db2b39; */
+	visibility: visible;
+  }
+ @media screen and (max-width:1400px) {
+	.tooltip .tooltiptext {
+		visibility: hidden;
+		min-width: 240px;
+		background-color: white;
+		color: black;
+		text-align: center;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		border-radius: 6px;
+		padding: 5px 0;
+		/* max-height: 200px; */
+		height: 110px;
+		/* margin: 40px; */
+		
+		/* Position the tooltip */
+		position: absolute;
+		z-index: 1;
+		top: 100%;
+		/* left: 50%; */
+		margin-left: -30px;
+		display: flex;
+		flex-direction: column;
+	  }
+ }
+
+ @media screen and (max-width:987px) {
+	.tooltip .tooltiptext {
+		visibility: hidden;
+		min-width: 290px;
+		background-color: white;
+		color: black;
+		text-align: center;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		border-radius: 6px;
+		padding: 5px 0;
+		/* max-height: 200px; */
+		height: 120px;
+		/* margin: 40px; */
+		
+		/* Position the tooltip */
+		position: absolute;
+		z-index: 1;
+		top: 100%;
+		/* left: 50%; */
+		margin-left: -30px;
+		display: flex;
+		flex-direction: column;
+	  }
+ }
+  
+ .button-get{
+    cursor: pointer ;
+    background-color: yellow;
+     border-radius: 20px ;
+     color: black;
+     font-weight: bold ;
+     height: 10vh ;
+     width: 12vw;
+     font-size: 18px;
+     border: 0px ;
+}
+@media screen  and (max-width:230px){
+    .button-get{
+        cursor: pointer ;
+        background-color: yellow;
+         border-radius: 20px ;
+         color: black;
+         font-weight: bold ;
+         height: 10vh ;
+         width: 20vw;
+         font-size: 18px;
+         border: 0px ;
+    }
+   
+}

@@ -1,0 +1,319 @@
+/* body{
+    background-color: black;
+   
+} */
+#forCentering{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+#mainContainer{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* border: 1px solid grey; */
+}
+
+#applicationDetailsDiv{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 28px;
+    padding-block: 7px;
+    color: aliceblue;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+#twoCardsDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+#leftCard{
+    width:30%;
+    height:650px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+#rightCard{
+    width: 65%;
+    height:650px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#leftCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+#imageWithName{
+    display: flex;
+    width: 80%;
+    justify-content: flex-start;
+    
+    margin-top: 5px;
+}
+
+
+#userImage{
+    width:70px;
+    height: 70px;
+    background-image: url(../../Photos/developer.jpeg);
+    background-size: cover;
+    background-position: center;    
+    border:none;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+
+
+#userDetails{
+    color: aliceblue;
+    align-items: start;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: flex-start; */
+    line-height: 0%;
+    text-align: left;
+}
+
+#appliedJobCard{
+    height: 130px;
+    width: 90%;
+    background-color: rgb(255, 255, 167);
+    border-radius: 15px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+#appliedJobHead{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+ 
+}
+
+#blackLine{
+    height: 1px;
+    width: 100%;
+    background-color: grey;
+}
+
+
+#interviewStage{
+    height: 95px;
+    width: 90%;
+    background-color: rgb(255, 255, 167);
+    border-radius: 15px;
+        
+    display: flex;
+    flex-direction: column;
+}
+
+#interviewStageHead{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 30px;
+    padding: 4%;
+}
+
+#levelGrading{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 20px;
+}
+
+#schedulingInterview{
+    width:80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.points{
+    width:40px;
+    height: 8px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.points:hover{
+    background-color: rgb(74, 74, 74);
+    cursor: pointer;
+}
+
+#bookInterview{
+    width: 60%;
+    height: 30px;
+    color: aliceblue;
+    border: 1px solid grey;
+    border-radius: 10px;
+     padding-left: 6%;
+     padding-top: 1%;
+    margin-left: -5%;
+}
+
+#msgDiv{
+    width: 25%;
+    height: 25px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+#contactCard{
+    width:80%;
+    color:aliceblue;
+    line-height: 0%;
+    text-align: left;
+}
+
+
+#buttonComponents{
+    height: 25px;
+    padding-inline: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding-block: 30px;
+}
+
+.buttonComponentsCss{
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    color: aliceblue;
+    border: none;
+}
+.buttonComponentsCss:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(194, 194, 14);
+}
+
+#userContactDetails{
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 25px;
+    padding-block: 8px;
+}
+
+#contact{
+    width: 330px;
+    color: aliceblue;
+    line-height: 0%;
+    text-align: left;
+}
+
+#skillsDiv{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+#skillsHead , #experienceHead{
+    padding-left: 27px;
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+    text-align: left;
+}
+
+#skillsContent , #experienceContent{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: aliceblue;
+    /* padding-inline: 30px; */
+    padding-top: 4px;
+    line-height: 4px;
+    width: 790px;
+}
+
+#skillsContent h4{
+    margin-inline: 30px;
+}
+
+#line{
+    width:100%;
+    height:1px;
+    background-color: grey;
+    margin-top: 12px;
+}
+
+#experienceDiv{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+
+}
+
+#experienceContent h4{
+    margin-inline: 30px;
+}
+
+#hiringProcessDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+#hiringProcessHead{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 65px;
+    padding-top: 20px;
+}
+
+#currentStage{
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#ratingDiv{
+    color: rgb(149, 149, 21);
+    width: 18%;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid rgb(255, 255, 167);
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#hiringButtonsContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 28px;
+    padding-top: 28px;
+}
+
+.hiringButtons{
+    width: 20%;
+    height:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 167);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.hiringButtons:hover{
+    border: 1px solid whitesmoke;
+    background-color: rgb(255, 255, 180);
+    cursor: pointer;
+}

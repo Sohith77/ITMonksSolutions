@@ -1,0 +1,36 @@
+
+.heading{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    
+}
+.accordion{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+
+}
+.accordion-button{
+    /* font-style: oblique; */
+    font-family: "Sahitya", serif;
+    border: none;
+    background-color:none;
+}
+.accordion-body{
+    font-family: "Sahitya", serif;
+
+}
+
+
+.accordion{
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0;
+    --bs-accordion-border-color:0;
+    --bs-accordion-active-bg:0;
+    /* --bs-accordion-border-width : 0; */
+    --bs-accordion-btn-icon: url(https://www.freepnglogos.com/uploads/plus-icon/plus-icon-plus-math-icon-download-icons-9.png);
+
+}
+.accordion-collapse{
+    border-width: 10px;
+}

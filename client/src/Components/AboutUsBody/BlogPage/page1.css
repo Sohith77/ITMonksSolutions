@@ -1,0 +1,662 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+.macontainer {
+  position: relative;
+  width: 100%;
+}
+.maimage {
+  width: 100%;
+  height: 100%;
+}
+.matextOverlay {
+  text-align: justify;
+  position: absolute;
+  top: 50%;
+  right: 10%; 
+  transform: translateY(-50%);
+  background-color:rgba(223, 211, 211, 0.87);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 55%;
+  height: 55%;
+  overflow: hidden;
+  
+}
+.maparagraph{
+  font-size:26px;
+  /* font-family: "Sahitya", serif; */
+  font-family: "Inter", sans-serif
+}
+.mamatter{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.mahead{
+
+  text-align: center;
+  font-size:30px;
+  /* font-family: "Sahitya", serif; */
+  padding-bottom: 1%;
+  font-family: "Inter", sans-serif
+}
+.maname{
+  font-size: 20px;
+  bottom:20px;
+  /* font-family: "Sahitya", serif; */
+  padding-left:65%;
+  padding-top: 1.5%;
+  font-family: "Inter", sans-serif
+}
+.mareading-effect span {
+  opacity: 0;
+  animation: appear 1s forwards;
+  line-height: -1;
+  
+}
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* media-queries */
+
+@media (max-width:2561px){
+  .matextOverlay {
+      position: absolute;
+      top: 50%;
+      right: 10%; 
+      transform: translateY(-50%);
+    
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 55%;
+      height: 55%;
+      overflow: hidden;
+  }
+  .mareading-effect{
+    line-height: 64px;
+  }
+  .maparagraph{
+     font-size:28px;
+     /* line-height: 1.2; */
+  }
+  .mahead{
+      text-align: center;
+      font-size:32px;
+    
+    }
+    .maname{
+      font-size: 28px;
+      bottom:20px;
+      padding-left:65%
+    }
+
+}
+@media (max-width:2000px){
+  .matextOverlay {
+      position: absolute;
+      top: 50%;
+      right: 10%; 
+      transform: translateY(-50%);
+    
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 55%;
+      height: 55%;
+      overflow: hidden;
+  }
+  .mareading-effect{
+    line-height: 47px;
+  }
+  .maparagraph{
+     font-size:17px;
+     line-height: 1.2;
+  }
+  .mahead{
+      text-align: center;
+      font-size:21px;
+    }
+    .maname{
+      font-size: 17px;
+      bottom:20px;
+      padding-left:65%
+    }
+
+}
+
+/* for the screens 1441 */
+@media (max-width:1441px){
+  .matextOverlay {
+      position: absolute;
+      top: 50%;
+      right: 10%; 
+      transform: translateY(-50%);
+    
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 55%;
+      height: 55%;
+      overflow: hidden;
+  }
+  .maparagraph{
+     font-size:14px;
+  
+  }
+  .mareading-effect{
+    line-height: 35px;
+  }
+  .mahead{
+      text-align: center;
+      font-size:17px;
+    }
+    .maname{
+      font-size: 13px;
+      /* padding-bottom:1; */
+      padding-left:65%;
+      
+    }
+
+}
+
+@media (max-width:1025px){
+  .matextOverlay {
+      position: absolute;
+      top: 50%;
+      right: 10%; 
+      transform: translateY(-50%);
+    
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 55%;
+      height: 55%;
+      overflow: hidden;
+  }
+  .maparagraph{
+     font-size:10px;
+  }
+  .mareading-effect{
+    line-height: 25px;
+  }
+  .mahead{
+      text-align: center;
+      font-size:13px;
+    }
+    .maname{
+      font-size: 10px;
+      bottom:15px;
+      padding-left:65%
+    }
+
+}
+
+@media (max-width:1240px){
+  .matextOverlay {
+      position: absolute;
+      top: 50%;
+      right: 10%; 
+      transform: translateY(-50%);
+      
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 55%;
+      height: 57%;
+      overflow: hidden;
+  }
+  .mareading-effect{
+    line-height: 26px;
+  }
+  .maparagraph{
+     font-size:12px;
+     line-height: 0;
+  }
+  .mahead{
+      text-align: center;
+      font-size:15px;
+    }
+    .maname{
+      font-size: 12px;
+      bottom:15px;
+      padding-left:65%
+    }
+
+}
+@media (max-width:1025px){
+  .matextOverlay {
+      position: absolute;
+      top: 50%;
+      right: 10%; 
+      transform: translateY(-50%);
+  
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 55%;
+      height: 55%;
+      overflow: clip;
+  }
+  .maparagraph{
+     font-size:10px;
+  }
+  .mareading-effect{
+    line-height: 25px;
+  }
+  .mahead{
+      text-align: center;
+      font-size:13px;
+    }
+    .maname{
+      font-size: 10px;
+      bottom:15px;
+      padding-left:65%
+    }
+
+}
+@media (max-width:930px){
+  .matextOverlay {
+      position: absolute;
+      top: 50%;
+      right: 10%; 
+      transform: translateY(-50%);
+    
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 55%;
+      height: 57%;
+      overflow: hidden;
+  }
+  .maparagraph{
+     font-size:9px;
+  }
+  .mareading-effect{
+    line-height: 24px;
+  }
+  .mahead{
+      text-align: center;
+      font-size:12px;
+    }
+    .maname{
+      font-size: 9px;
+      bottom:15px;
+      padding-left:65%
+    }
+
+}
+
+
+@media (max-width:769px){
+  .matextOverlay {
+      position: absolute;
+      top: 50%;
+      right: 10%; 
+      transform: translateY(-50%);
+    
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 55%;
+      height: 55%;
+      overflow: hidden;
+  }
+  .maparagraph{
+     font-size:8px;
+  }
+  .mahead{
+      text-align: center;
+      font-size:9px;
+      margin-bottom: 5px;
+    }
+    .maname{
+      font-size: 8px;
+      bottom:15px;
+      padding-left:65%
+    }
+    .mareading-effect{
+      line-height: 16px;
+    }
+
+}
+@media (max-width:600px){
+  .matextOverlay {
+      position: absolute;
+      top: 50%;
+      right: 10%; 
+      transform: translateY(-50%);
+    
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 55%;
+      height: 55%;
+      overflow: hidden;
+  }
+  .maparagraph{
+     font-size:6px;
+  }
+  .mahead{
+      text-align: center;
+      font-size:7px;
+      margin-bottom: 5px;
+    }
+    .maname{
+      font-size:6px;
+      bottom:15px;
+      padding-left:65%
+    }
+    .mareading-effect{
+      line-height: 16px;
+    }
+
+}
+
+@media (max-width:580px){
+  .matextOverlay {
+      position: absolute;
+      top: 50%;
+      right: 10%; 
+      transform: translateY(-50%);
+    
+      padding: 2%;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 55%;
+      height: 55%;
+      overflow: hidden;
+  }
+  .maparagraph{
+     font-size:6px;
+  }
+  .mahead{
+      text-align: center;
+      font-size:7px;
+    }
+    .maname{
+      font-size: 6px;
+      bottom:15px;
+      padding-left:65%
+    }
+    .mareading-effect{
+      line-height: 12px;
+    }
+
+}
+@media (max-width:490px){
+  .matextOverlay {
+      position: absolute;
+      top: 50%;
+      right: 10%; 
+      transform: translateY(-50%);
+    
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 55%;
+      height: 55%;
+      overflow: hidden;
+  }
+  .mareading-effect{
+    line-height: 10px;
+  }
+  .maparagraph{
+     font-size:5px;
+     line-height: 0pt;
+     /* margin-bottom: -10px */
+  }
+  .mahead{
+      text-align: center;
+      font-size:7px;
+      line-height: 0pt;
+      margin-bottom: 0px;
+    }
+    .maname{
+      font-size: 5px;
+      bottom:15px;
+      padding-left:65%
+    }
+}
+@media (max-width:405px){
+  .matextOverlay {
+    position: absolute;
+    top: 45%;
+    right: 10%; 
+    transform: translateY(-50%);
+  
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    height: 55%;
+    overflow: hidden;
+}
+.maparagraph{
+   font-size:6px;
+   line-height: 0pt;
+   /* margin-bottom: -10px */
+}
+.mahead{
+    text-align: center;
+    font-size:6.5px;
+    line-height: 0pt;
+  }
+  .mareading-effect{
+    line-height: 10px;
+  }
+  .maname{
+    font-size: 5px;
+    bottom:15px;
+    padding-left:65%
+  }
+
+}
+
+@media (max-width:394px){
+  .matextOverlay {
+      position: absolute;
+      top: 45%;
+      right: 10%; 
+      transform: translateY(-50%);
+    
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 60%;
+      height: 60%;
+      overflow: hidden;
+  }
+  .maparagraph{
+    font-size:5px;
+    line-height: -8;
+    
+    margin-bottom: -10px
+  }
+  .mahead{
+      text-align: center;
+      font-size:5px;
+      line-height: 0;
+    }
+    .maname{
+      font-size: 5px;
+      bottom:15px;
+      padding-left:65%
+    }
+    .mareading-effect{
+      line-height: 5px;
+    }
+
+}
+@media (max-width:310px){
+  .matextOverlay {
+      position: absolute;
+      top: 45%;
+      right: 10%; 
+      transform: translateY(-50%);
+      
+      padding: 14px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 60%;
+      height: 60%;
+      overflow: hidden;
+  }
+  .maparagraph{
+     font-size:4.5px;
+     line-height: 0;
+     margin-bottom: -10px
+  }
+  .mahead{
+      text-align: center;
+      font-size:5px;
+      line-height: 0;
+    }
+    .maname{
+      font-size: 5px;
+      bottom:15px;
+      padding-left:65%
+    }
+    .mareading-effect{
+      line-height: 0px;
+    }
+
+
+
+}
+
+@media (max-width:310px){
+  .matextOverlay {
+      position: absolute;
+      top: 45%;
+      right: 10%; 
+      transform: translateY(-50%);
+      padding: 14px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 60%;
+      height: 60%;
+      overflow: hidden;
+  }
+  .maparagraph{
+     font-size:4.5px;
+     line-height: 0;
+     margin-bottom: -10px
+  }
+  .mahead{
+      text-align: center;
+      font-size:5px;
+      line-height: 0;
+    }
+    .maname{
+      font-size: 5px;
+      bottom:15px;
+      padding-left:65%
+    }
+
+}
+@media (max-width:291px){
+  .matextOverlay {
+      position: absolute;
+      top: 45%;
+      right: 10%; 
+      transform: translateY(-50%);
+  
+      padding: 13px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 55%;
+      height: 55%;
+      overflow: hidden;
+  }
+  .maparagraph{
+     font-size:4px;
+     line-height: 0;
+     margin-bottom: -10px
+  }
+  .mahead{
+      text-align: center;
+      font-size:5px;
+      line-height: 0;
+    }
+    .maname{
+      font-size: 5px;
+      bottom:15px;
+      padding-left:65%
+    }
+    .mareading-effect{
+      line-height: 10px;
+    }
+
+}
+@media (max-width:200px){
+  .matextOverlay {
+      position: absolute;
+      top: 45%;
+      right: 10%; 
+      transform: translateY(-50%);
+      
+      padding: 13px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 55%;
+      height: 55%;
+      overflow: hidden;
+  }
+  .maparagraph{
+     font-size:4px;
+     line-height: 0;
+     margin-bottom: -10px
+  }
+  .mahead{
+      text-align: center;
+      font-size:5px;
+      line-height: 0;
+    }
+    .maname{
+      font-size: 2.5px;
+      bottom:15px;
+      padding-left:65%
+    }
+    .mareading-effect{
+      line-height: 0px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

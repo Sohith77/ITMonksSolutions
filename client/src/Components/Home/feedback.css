@@ -1,0 +1,46 @@
+
+
+.body{
+    overflow-x: hidden;
+}
+.headings2002{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    /* padding: 2%; */
+}
+.headings2002 h3{
+    color: goldenrod;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    font-size: 15px;
+  /* animation: slideLeft 2s ease forwards; */
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.headings2002 h1{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 50px;
+    /* animation: slideLeft 2s ease forwards; */
+}
+
+
+@keyframes slideLeft {
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 376px) {
+    .header111{
+        font-size: 20px !important;
+    }
+}

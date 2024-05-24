@@ -1,0 +1,552 @@
+.SwiperSlide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.slideDiv {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 60vw;
+    height: 60vh;
+    position: relative;
+    left: 22%;
+    white-space: wrap; /* Prevents text from wrapping */
+    overflow: auto;
+    text-overflow: ellipsis; 
+    margin-bottom: 2em;
+    margin-top: 7em;
+}
+
+/* .lastPage{
+background-color: aqua;
+padding: 15px;
+padding-right: 200px;
+} */
+.money {
+    /* background-color: aqua; */
+    height: auto;
+    width: 50%;
+    padding: 5%;
+}
+
+/* .mid{
+    flex-grow: 1;
+} */
+
+.white{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+  
+}
+.yellow{
+    color: goldenrod;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.rightcontent{
+    /* background-color: aquamarine; */
+    width: 100%;
+    margin-top: 8%;
+}
+#sld8rightContent{
+    margin-top: 18%;
+    /* background-color: red; */
+}
+.cash{
+    width: 50%;
+    display: inline-flex;
+    flex-direction: column;
+    padding-left: 20%;
+    position: relative;
+    left:-15%;
+}
+.space{
+    opacity: 0;
+}
+.inp6{
+    position: relative;
+    left: -10px;
+    border-bottom-color: none;
+    /* background-color: red; */
+    color: red;
+}
+.btn{
+    margin-top: 10%;
+    background-color:goldenrod;
+    border: none;
+    width: 8em;
+    height: 2em;
+    margin-left: 8px; 
+    color: white;  
+    margin-bottom: 1.5em;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px;
+}
+.btn:hover{
+    background-color: brown;
+}
+.btn2{
+    margin-top: 10%;
+    background-color: goldenrod;
+    /* border-radius: 50px; */
+    width: 8em;
+    height: 2em;
+    margin-bottom: 2em;
+}
+
+.CAP{
+    display: flex;
+    margin-right: 5%;
+}
+.inp5{
+    position: relative;
+    top: 8em;
+    margin-top: 4em;
+}
+.left6{
+    padding-right: 5%;
+}
+.inp8{
+    color: white;
+}
+.btn8{
+    margin-bottom: 10px;
+}
+.whitetext
+{
+    color: white;
+}
+
+.cardinputtext{
+    background-color: #151414;
+    width: 18em;
+    color: white;
+    height: 2.5em;
+    outline-style: none;
+    position: relative;
+    
+}
+::placeholder {
+    color: rgb(238, 225, 225);
+    opacity: .7;
+    border:none;
+    outline-style: none;
+    padding-left: .5em; 
+}
+.other{
+ background-color: black;   
+ color: white;
+}
+.submit{
+    position: relative;
+    /* top: 115px; */
+    text-align: center;
+    padding: auto;
+    color: white;
+}
+.inps{
+    /* background-color: red; */
+    color:green;
+    position: relative;
+    top: -500px;
+}
+#slide8{
+    /* background-color: rgb(103, 154, 154); */
+    color: white;
+  
+}
+/* .bot{
+    display: flex;
+    margin-right: 2%;
+} */
+.checkboxtext{
+    color: white;
+}
+.questions8{
+    padding-left: 10%;
+}
+
+.next{
+    margin-left: 5%;
+}
+.other{
+    width: 50%;
+}
+.othertext22{
+    background-color: #151414;
+    width: 70%;
+    color: white;
+}
+.otherslide8{
+    width: 90%;
+    background-color: black;
+    color: white;
+}
+.its{
+    color: #FFFFFF;
+    font-size: larger;
+    font-style: Inter;
+}
+
+#slide5{
+    /* background-color: red; */
+    padding-top: 15%;
+}
+#sld5inp{
+    background-color: #151414;
+    border: none;
+    border-bottom: 2px solid rgb(129, 126, 126);
+   position: relative;
+   left: 1%;
+   width: 100%;
+   color: white;
+}
+.sld5inp{
+    background-color: #151414;
+    border: none;
+    border-bottom: 2px solid rgb(129, 126, 126);
+   position: relative;
+   left: 1%;
+   width: 100%;
+   color: white;
+}
+#sld7box{
+    /* background-color: red; */
+    padding-top: 15%;
+}
+#sld9box{
+    padding-top: 10%;
+}
+.lbl117{
+    width: 150%;
+    color: white;
+}
+.lbl118{
+    width: 130%;
+    margin-bottom: 10%;
+}
+.otr117{
+    background-color: #151414;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    width: 120%;
+}
+
+#sld9name{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid white;
+    margin-bottom: 10%;
+}
+#sld9mail{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid white;
+
+}
+#sld8checkbox{
+    position: relative;
+    left: 4%;
+}
+.otrmartop{
+    margin-top: 8%;
+}
+.otherspace1{
+    opacity: 0;
+}
+/* input[type="text"]:focus {
+    outline: none;
+    border: none;
+  } */
+  .inp6[typt="text"]:focus{
+    outline: none;
+    border: none;
+  }
+  .inp6:hover{
+    outline: none;
+  }
+ .otr117:hover{
+    outline: none;
+ }
+ .otr117:focus{
+    outline: none;
+ }
+/* textarea[type="text"]:focus {
+    outline: none;
+    border: none;
+  } */
+
+  /* @media (max-width: 670px) {
+
+    #sldInfo{
+      
+        position: relative;
+        top: 10em;
+       
+       }
+  } */
+ 
+  
+/* 
+@media (max-width: 960px) {}
+
+  @media (max-width: 960px) {
+   
+   
+   
+    .slideDiv {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+       
+        height: auto;
+        position: relative;
+        left: 22%;
+        
+    }
+    .money{
+        height: auto;
+        overflow-x: hidden;
+        width: 80%;
+        position: relative;
+        left: 5%;
+       
+    }
+    .cash{
+       
+        height: auto;
+        overflow-x: hidden;
+        width: 90%;
+       
+        position: relative;
+        left: 5%;
+        padding-right: 1%;
+   }
+   #casher{
+    position: relative;
+        left: 0%;
+   }
+   .lbl118{
+    width: 98%;
+   }
+   .lbl117{
+    width: 98%;
+   }
+  } */
+  @media (max-width: 700px) {
+    .slideDiv{
+       
+        display: flex;
+        flex-flow: column;
+        width: 90%;
+        /* position: fixed; */
+        margin-left: -17%;
+    }
+    
+    .money{
+        width: 90%;
+        /* background-color: red; */
+    }
+    .cash{
+        width: 70%;
+        margin-left: 20%;
+        /* background-color: green; */
+        
+    }
+  }
+  #finaloutdata{
+    padding: 4%;
+    padding-top: 4em;
+  }
+  .finalOutView{
+    color: white;
+    font-size: large;
+  }
+  /* .its{
+    color: #FFFFFF;
+    font-size: larger;
+    font-style: Inter;
+  } */
+  /* input[type="checkbox"]{
+    accent-color: goldenrod; 
+  }
+   */
+   
+
+   #finaloutdata{
+    margin-top: 10%;
+    /* width: 100%; */
+    /* padding-top: 100%; */
+    background-color: black;
+   width: 60%;
+   padding-left: 8%;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* padding-top: 10%; */
+    overflow-x: scroll;
+    text-overflow: ellipsis;
+    height: 60vh;
+   
+   }
+   #lastSlideDiv{
+   /* padding-top: 90%; */
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    text-overflow: ellipsis;
+    overflow-x: scroll;
+    margin-top: 5%;
+    padding-top: 10%;
+   }
+   #lastSlide{
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: scroll;
+    text-overflow: ellipsis;
+    margin-top: 5%;
+    margin-bottom: 3%;
+   }
+   #controls10{
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+
+   }
+   .sldAns{
+    color: white;
+    font-weight: 400;
+   }
+   .goldenrod10{
+    color: gold;
+    font-weight: 800;
+    font-size: larger;
+   }
+   .goldenrod11{
+    color: rgb(220, 185, 99);
+    font-weight: 700;
+   }
+   .yellow10{
+    color: goldenrod;
+    font-weight: 400;
+   }
+   /* #sldInfo{
+   
+    overflow-x: auto;
+    text-overflow: ellipsis;
+    padding-top: 3rem;
+    overflow-x: scroll;
+   } */
+   /* #finalsubmitbutton{
+    margin-top: 50px;
+    background-color: red;
+   } */
+
+   .sld8q{
+    background-color: black;
+    color: white;
+    border: none;
+    border-bottom: 2px solid rgb(136, 134, 134);
+    width: 97%;
+    margin-left: 3%;
+    margin-top: 2%;
+   }
+   #sld10{
+    /* background-color: red; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin-bottom: 2%;
+    margin-top: -2%;
+   }
+   #sld10Div{
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    height: 20%;
+   }
+   /* inp6 othertext sld5text */
+   .sld5text{
+    width: 90%;
+   }
+
+
+   #verificationContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 5px;
+    padding-top: 15px;
+}
+
+#requestOtpButton{
+    width: 25%;
+    height: 30px;
+    font-size: 0.8vw;
+    padding-inline: 3px;
+    background-color:goldenrod;
+    border-radius: 15px;
+    font-weight: 600;
+}
+
+#otpInputField{
+    width: 30%;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+} 
+
+#otpInputField::-webkit-outer-spin-button,
+#otpInputField::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#verificationButton{
+    width: 25%;
+    height: 30px;
+    background-color: rgb(254, 56, 56);
+    font-weight: 600;
+    font-size: 0.8vw;
+    border-radius: 15px;
+    border: none;
+}
+
+#verificationButton:hover{
+    scale: 1.1;
+    cursor: pointer;
+    transition-duration: 200ms;
+}
+@media screen and (max-width: 425px) {
+    #requestOtpButton{
+        width: 34%;
+    height: 30px;
+    font-size: 3vw;
+    padding-inline: 3px;
+    background-color: rgb(244, 244, 47);
+    border-radius: 15px;
+    font-weight: 600;
+    }
+    #verificationButton{
+        width: 30%;
+        height: 30px;
+        background-color: rgb(254, 56, 56);
+        font-weight: 600;
+        font-size: 3vw;
+        border-radius: 15px;
+        border: none;
+    }
+}

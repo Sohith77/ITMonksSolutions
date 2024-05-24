@@ -1,0 +1,707 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+
+/* heading */
+.why-we-choose-us-text {
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 80px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 33px;
+    padding-top: 14px;
+}
+
+.Choose_Us {
+    color: goldenrod;
+}
+
+/* sub-heading */
+.why-we-choose-us-Time-management {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 34px;
+    font-weight: bolder;
+    font-family: "Inter", sans-serif;
+    ;
+}
+
+
+/* first container  */
+.why-we-choose-us-First-container {
+    width: 100%;
+    height: 0%;
+    /* border: 3px solid blue; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 4.5%;
+    padding-left: 1%;
+    /* padding-right: 2%; */
+
+}
+
+/* set clear priorties */
+.why-we-choose-us-set-clear-priorities {
+    width: 23.3%;
+    display: flex;
+}
+
+.why-we-choose-us-para1 {
+    color: #D13E99;
+    ;
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+/* image */
+.why-we-choose-us-image1 {
+    width: 38.3%;
+}
+
+.image1 {
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    border-radius: 50px;
+    /* animation: move1 2s linear forwards;
+    margin-left: -90%; */
+}
+
+.why-we-choose-us-rigtpara1 {
+    width: 38.3%;
+    color: black;
+    display: flex;
+}
+
+.why-we-choose-us-rigtpara-innertext1 {
+    padding: 4%;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+/* second container */
+.why-we-choose-us-Second-container {
+    width: 100%;
+    height: 0%;
+    /* border: 3px solid blue; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 4.5%;
+    padding-left: 1%;
+}
+
+/* plan and organize */
+.why-we-choose-us-plan-and-organize {
+    width: 23.3%;
+    display: flex;
+}
+
+.why-we-choose-us-para2 {
+    /* color: red; */
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;
+    color: #C33B23;
+    align-items: center;
+
+}
+
+
+.why-we-choose-us-image2 {
+    width: 38.3%;
+}
+
+.image2 {
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    border-radius: 50px;
+    /* animation: move1 2s linear forwards;
+    margin-left: -150%; */
+}
+
+.why-we-choose-us-rigtpara2 {
+    width: 38.3%;
+    display: flex;
+    color: black;
+}
+
+.why-we-choose-us-rigtpara-innertext2 {
+    padding: 4%;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    font-family: "Inter", sans-serif;
+    ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+/* third container */
+.why-we-choose-us-Third-container {
+    width: 100%;
+    height: 0%;
+    /* border: 3px solid blue; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 4.5%;
+    padding-left: 1%;
+}
+
+/* Minimising distractions */
+.why-we-choose-us-minizing-distractions {
+    width: 23.3%;
+    display: flex;
+
+}
+
+.why-we-choose-us-para3 {
+
+    color: black;
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+
+/* image */
+.why-we-choose-us-image3 {
+    width: 38.3%;
+}
+
+.image3 {
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    border-radius: 50px;
+    /* animation: move1 2s linear forwards;
+    margin-left: -100%; */
+}
+
+
+.why-we-choose-us-rigtpara3 {
+    display: flex;
+    width: 38.3%;
+    color: black;
+
+}
+
+.why-we-choose-us-rigtpara-innertext3 {
+    padding: 4%;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.why-we-choose-commitment-heading {
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0;
+
+}
+
+.why-we-choose-us-Fourth-container {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    /* text-align: center; */
+    /* margin-top: 0px; */
+
+}
+
+.choose-card1 {
+    width: 33.3%;
+    height: 60.3%;
+    color: white;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-left: 3.7%;
+    margin-right: 3.7%;
+    padding: 5%;
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+    font-weight: bold;
+    font-size: 32px;
+    box-shadow: 8px 8px 8px 8px grey;
+}
+.card-body {
+    width: 120.3%;
+    height: 165.3%;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -150%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.title {
+    width: 90.3%;
+    height: 75%;
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-left: 80px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.choose-card1:hover .card-body {
+    right: 0;
+}
+
+
+@media screen and (max-width:1151px){
+    .choose-card1{
+        font-size: 31px;
+    }
+    
+    .title {
+        padding-top: 6%;
+        font-size: 14.8px;
+        padding-left: 60px;
+        font-weight: 450;
+
+
+    }
+}
+@media screen and (max-width:1105) {
+
+    
+    .title {
+        padding-top: 1%;
+        font-size: 10px;
+        padding-left: 60px;
+        font-weight: 400;
+
+
+    }
+}
+@media screen and (max-width:952px) {
+    .why-we-choose-us-para1 {
+        font-size: 38px;
+    }
+    .why-we-choose-us-para2 {
+        font-size: 38px;
+    }
+    
+    .why-we-choose-us-para3{
+        font-size: 38px;
+
+    }
+    
+    .choose-card1{
+        font-size: 27px;
+    }
+    .title {
+        padding-top: 1%;
+        font-size: 10.4px;
+        padding-left: 60px;
+        font-weight: 400;
+
+
+    }
+} 
+@media screen and (max-width:856px) {
+    .choose-card1{
+        font-size: 29px;
+    }
+    
+    .title {
+        padding-top: 11%;
+        font-size: 10.8px;
+        padding-left: 60px;
+        font-weight: 400;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .why-we-choose-us-text {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .why-we-choose-us-text-para {
+        padding-top: 1.2%;
+    }
+
+    .why-we-choose-us-Time-management {
+        font-size: 24px;
+    }
+
+    .why-we-choose-us-First-container {
+        width: 100%;
+        border: 3px solid blue;
+        margin-top: 4.5%;
+        padding-left: 1%;
+        padding-right: 2%;
+    }
+
+    .why-we-choose-us-set-clear-priorities {
+        width: 33.3%;
+        display: flex;
+    }
+
+    .why-we-choose-us-para1 {
+        font-size: 30px;
+        line-height: 50px;
+        margin: 12%;
+    }
+
+    .why-we-choose-us-image1 {
+        width: 33.3%;
+    }
+
+    .image1 {
+        width: 85%;
+        height: 90%;
+        padding-top: 16%;
+        padding-bottom: 0%;
+        border-radius: 10px;
+    }
+
+    .why-we-choose-us-rigtpara1 {
+        width: 33.3%;
+    }
+
+    .why-we-choose-us-rigtpara-innertext1 {
+        font-size: 15px;
+    }
+
+    .why-we-choose-us-Second-container {
+        width: 100%;
+        /* border: 3px solid blue; */
+        margin-top: 4.5%;
+        padding-left: 1%;
+        padding-right: 2%;
+    }
+
+    .why-we-choose-us-image2 {
+        width: 33.3%;
+    }
+
+    .image2 {
+        width: 85%;
+        height: 80%;
+        padding-top: 16%;
+        padding-bottom: 0%;
+        border-radius: 10px;
+    }
+
+    .why-we-choose-us-plan-and-organize {
+        width: 33.3%;
+        display: flex;
+    }
+
+    .why-we-choose-us-para2 {
+        font-size: 30px;
+        line-height: 50px;
+        margin: 12%;
+    }
+
+    .why-we-choose-us-rigtpara2 {
+        width: 33.3%;
+    }
+
+    .why-we-choose-us-rigtpara-innertext2 {
+        font-size: 15px;
+    }
+
+    .why-we-choose-us-Third-container {
+        width: 100%;
+        /* border: 3px solid blue; */
+        margin-top: 4.5%;
+        padding-left: 1%;
+        padding-right: 2%;
+
+    }
+
+    .why-we-choose-us-minizing-distractions {
+        width: 33.3%;
+        display: flex;
+    }
+
+    .why-we-choose-us-para3 {
+        font-size: 30px;
+        line-height: 50px;
+        margin: 12%;
+
+    }
+
+    .why-we-choose-us-image3 {
+        width: 33.3%;
+    }
+
+    .image3 {
+        width: 85%;
+        height: 90%;
+        padding-top: 16%;
+        padding-bottom: 0%;
+        border-radius: 10px;
+    }
+
+    .why-we-choose-us-rigtpara3 {
+        width: 33.3%;
+    }
+
+    .why-we-choose-us-rigtpara-innertext3 {
+        font-size: 15px;
+    }
+
+    .why-we-choose-us-Fourth-container {
+        /* border: 3px solid red; */
+        width: 100%;
+        height: 300px;
+    }
+    .choose-card1 {
+        width: 33.3%;
+        height: 70.3%;
+        font-size: 20px;
+        /* padding: 4%; */
+    }
+
+    .card-body {
+        width: 100.3%;
+        height: 145.3%;
+        position: absolute;
+    }
+
+    .title {
+        width: 90.3%;
+        height: 95%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 9px;
+        font-size: 9px;
+        font-weight: 400;
+    }
+}
+
+/* @media screen and (max-width:425px) {
+    .why-we-choose-us-Time-management {
+        padding-left: 10px;
+    }
+
+    .why-we-choose-us-First-container {
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .why-we-choose-us-set-clear-priorities {
+        padding-left: 55px;
+        width: 100%;
+    }
+
+    .why-we-choose-us-para1 {
+        font-size: 22px;
+        line-height: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+
+    .why-we-choose-us-image1 {
+        width: 100%;
+    }
+
+    .image1 {
+        width: 380px;
+        height: 220px;
+        margin-left: 4%;
+        padding-top: 0px;
+        padding-bottom: 0;
+    }
+
+    .why-we-choose-us-rigtpara-innertext1 {
+        line-height: 20px;
+        font-size: 18px;
+        padding-top: 28px;
+    }
+
+    .why-we-choose-us-rigtpara1 {
+        width: 80%;
+    }
+
+    .why-we-choose-us-Second-container {
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .why-we-choose-us-image2 {
+        width: 100%;
+    }
+
+    .image2 {
+        width: 380px;
+        height: 220px;
+        margin-left: 5%;
+        padding-top: 0px;
+        padding-bottom: 0;
+    }
+
+
+    .why-we-choose-us-plan-and-organize {
+        padding-left: 65px;
+        width: 100%;
+    }
+
+    .why-we-choose-us-para2 {
+        font-size: 22px;
+        line-height: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 24px;
+        padding-bottom: 0px;
+    }
+
+    .why-we-choose-us-rigtpara-innertext2 {
+        line-height: 20px;
+        font-size: 18px;
+        padding-top: 20px;
+    }
+
+    .why-we-choose-us-rigtpara2 {
+        width: 80%;
+    }
+
+
+    .why-we-choose-us-Third-container {
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .why-we-choose-us-minizing-distractions {
+        padding-left: 35px;
+        width: 100%;
+    }
+
+    .why-we-choose-us-para3 {
+        font-size: 22px;
+        line-height: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+
+    .why-we-choose-us-image3 {
+        width: 100%;
+    }
+
+    .image3 {
+        width: 350px;
+        height: 220px;
+        margin-left: 4%;
+        padding-top: 0px;
+        padding-bottom: 0;
+    }
+
+    .why-we-choose-us-rigtpara-innertext3 {
+        line-height: 20px;
+        font-size: 18px;
+        padding-top: 28px;
+    }
+
+    .why-we-choose-us-rigtpara3 {
+        width: 80%;
+    }
+
+    
+    .why-we-choose-us-Fourth-container {
+        display: flex;
+        flex-wrap: wrap;
+        height: 600px;
+        background-size: cover;
+    }
+
+    .choose-card1 {
+
+        width: 40.3%;
+        height: 45.3%;
+        font-size: 14px;
+       
+    }
+
+    .title {
+        height: 95%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 9px;
+        font-size: 9px;
+        font-weight: 300;
+    }
+
+
+} */

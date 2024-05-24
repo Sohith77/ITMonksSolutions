@@ -1,0 +1,71 @@
+.OurClientsimagesArray{
+   width: 15%;
+aspect-ratio: 3/2;
+object-fit: contain;
+mix-blend-mode: color-burn;
+}
+
+
+
+ /* Default styles */
+.ourclients-heading {
+  font-family: Inter;
+  /* font-size: 60px; */
+  font-weight: 500;
+  line-height: 73px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.ourclients-scrolling-icons-container {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+/* For mobile phones and tablets */
+@media (max-width: 768px) {
+  .ourclients-heading {
+    /* font-size: 36px; */
+    line-height: 44px;
+  }
+  .OurClientsimagesArray {
+    height: 2vh; /* Adjust height for mobile */
+    width: 20vw; /* Adjust width for mobile */
+    margin: 0 2vw; /* Adjust margin for mobile */
+}
+  /* For mobile phones */
+  [class*="col-"] {
+    width: 100%;
+  }
+  
+}
+
+@media (max-width: 992px) {
+  /* For tablets */
+  [class*="col-"] {
+    width: 100%;
+  }
+  .OurClientsimagesArray {
+    height: 8vh; /* Adjust height for tablet */
+    width: 8vw; /* Adjust width for tablet */
+    margin: 0 1.5vw; /* Adjust margin for tablet */
+}
+}
+
+.ourclients-scrolling-icons-wrapper {
+  display: inline-block;
+  /* -webkit-text-stroke-width: 0.1px; */
+  /* animation: move-rtl 6000ms linear infinite ; */
+  /*animation: scrollIcons 20s linear infinite; Adjust duration as needed */
+}
+
+/* @keyframes scrollIcons {
+  0% {
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
+} */

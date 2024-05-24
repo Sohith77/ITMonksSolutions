@@ -1,0 +1,181 @@
+* {
+font-family: inter;
+} 
+
+@font-face {
+    font-family: inter;
+    src: url("../fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+}
+
+#iconsDiv1{
+    margin-top: 7%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    /* border: 1px dotted red; */
+    margin-bottom: 3px;
+}
+
+#circle1 {
+    border: 3px solid #FFD600;
+}
+
+#circle2 {
+    border: 3px solid gray;
+}
+
+.circleDiv{
+    height: 30px;
+    width: 30px;
+    /* border: 3px solid #FFD600; */
+    border-radius: 50%;
+}
+
+#whatTimeDiv {
+    font-weight: 600;
+}
+
+#lineDiv{
+    width: 40%;
+    height: 2px;
+    background-color: gray;
+    margin-top: 14px;
+} 
+
+#choosePara1 {
+    position: absolute; 
+    top:18%; 
+    left:24%;  
+    color:#FFD600;
+    
+} 
+
+.choosePara {
+    font-weight: 500; 
+    font-size: 1rem;   
+} 
+
+#choosePara2 {
+    position: absolute; 
+    top:18%; 
+    left:68%; 
+    
+} 
+  
+
+#consultationDiv{
+    display: flex;
+    width: 70%;
+    height: 500px;
+    margin-bottom: 25px;
+    /* border:1px solid black; */
+}
+
+#calenderDiv{
+    width: 50%;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-color:  #666666;
+    margin-top: -8%;
+}
+
+#calenderHeading{
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+    color:black;
+}
+
+
+.phoneMan {
+    width:150px;
+    height:150px;
+    object-fit: contain;
+}
+#timeDiv{
+    width: 50%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; 
+    margin-top: -8%;
+}
+
+#angleDown {
+    height:20px;
+    width:20px; 
+    margin-left: -1%;  
+    cursor: pointer;
+    
+}
+
+.slotTimingDiv{
+    color:#FFD600;
+    font-size: 14px;
+    font-weight: 400; 
+    /* margin-left: -58%; */ 
+    margin-right: 45%;
+} 
+
+#whatTimeDiv {
+    margin-right: 58%;
+}
+
+#showingTimeDiv {
+    margin-top: -8%; 
+    
+}
+
+#slotTimingStyling{
+    color:#FFD600;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#dynamicDiv{
+    color:white;
+    font-size: 10px;
+    font-weight: 400;   
+    margin-top: -7%;  
+}
+
+.timeButton{
+    height: 40px;
+    width: 80%;
+    color: aliceblue;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.timeButton:hover{
+    border-color: aqua;
+}
+
+#calenterPageButton{
+    width: 130px;
+    height: 35px;
+    background-color: #FFD600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+} 
+
+.buttonDiv{
+    margin-right: -60%; 
+}

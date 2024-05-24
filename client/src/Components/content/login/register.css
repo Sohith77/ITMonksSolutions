@@ -1,0 +1,327 @@
+.Register{
+    /* background-color: blue; */
+    color: white;
+    /* padding: 10%;
+    margin-left: 5%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+    
+}
+.box{
+    /* background-color: rgb(171, 160, 160); */
+    background-color: black;
+    border-radius: 15px;
+    border: none;
+    padding: 2%;
+    width: 90%;
+    padding-top: 3em;
+    padding-bottom: 3em;
+   
+}
+.head31{
+    color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+}
+
+.tags31{
+    display: flex;
+    flex-direction: column;
+
+}
+.tags31 label{
+    color: goldenrod;
+    font-family: 'Inter';
+}
+.tags31 input{
+    width: 340px;
+    height: 3vi;
+    border-radius: 10px;
+    border: solid;
+    border-width: 1px;
+    border-color: goldenrod;
+    color: goldenrod;
+    background-color: black;
+}
+.descc31{
+    color: goldenrod;
+    padding: 2%;
+}
+.register31{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.register31 button{
+    color: black;
+    background-color: goldenrod;
+    width: 60%;
+    height: 5vh;
+    border: none;
+    border-radius: 10px;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: 'Inter';
+    cursor: pointer;
+}
+
+.register31 button:hover{
+    color: goldenrod;
+    background-color: black;
+    border: solid;
+    border-width: 1px;
+    /* border-color: goldenrod; */
+}
+#phone_number_31::-webkit-outer-spin-button,
+#phone_number_31::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+#phone_number_31{
+    -moz-appearance: textfield;
+    
+}
+.inp9{
+    width: 40%;
+   
+}
+
+
+.columns51{
+    /* background-color: rgb(128, 220, 220); */
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.columns52{
+    /* background-color: rgb(140, 158, 158); */
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+
+.tags60{
+    display: flex;
+    flex-flow: column;
+    margin: 2%;
+   height: 6rem;
+   /* adjustment*/
+   margin: 0px;
+   padding: 0px;
+   margin-left: 1rem;
+   margin-right: 1rem;
+}
+
+#otpCss{
+    width: 43%;
+    display: flex;
+    flex-flow: column;
+    /* margin: 2%; */
+   height: 6rem;
+   /* adjustment*/
+   margin: 0px;
+   padding: 0px;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   /* background-color: beige; */
+}
+#inputDivs{
+    /* width: 50%; */
+    display: flex;
+    /* justify-content: space-around; */
+    min-width: 100%;
+    /* padding-left: 15px; */
+    /* background-color: aqua; */
+
+}
+#sendOtpButton{
+    /* height:25px; */
+    /* min-width: 35%; */
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 10px;
+    font-weight: 600;
+    cursor: pointer;
+   border: none;
+    border-radius: 5px;
+    background-color: #f2d64d;
+    color: black;
+    margin-inline: 3px;
+    margin-top: 3px;
+    /* margin-left: -30px; */
+}
+#registerInput{
+    height:25px;
+    width: 50px;
+    margin-inline: 3px;
+
+    margin-top: 3px;
+    
+  border-radius: 3px;
+    
+  border: .5px solid grey;
+}
+#verifyOtpButton{
+    /* height:25px; */
+    /* min-width: 27%; */
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-inline: 3px;
+    margin-top: 3px;
+    /* background-color: rgb(246, 79, 79); */
+    /* margin-left: -80px; */
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 600;
+
+}
+
+.tags60 label{
+    color: goldenrod;
+    font-family: 'Inter';
+    /* background-color: aquamarine; */
+   
+}
+.confirm{
+    position: relative;
+    /* background-color: goldenrod; */
+    left: 1rem;
+}
+.passwordleft{
+    position: relative;
+    left: 1rem;
+}
+.inp9{
+    background-color: black;
+    width: 30vw;
+    border-radius: 10px;
+    border: 2px solid goldenrod;
+    height: 5vh;
+    color: white;
+    position: sticky;
+    padding-left: 2%;
+}
+.firstbox{
+    /* background-color: beige; */
+    display: flex;
+    /* flex-flow: row; */
+    align-items: center;
+    justify-content: center;
+
+}
+.secondbox{
+    /* background-color: rgb(179, 179, 59); */
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.icon2{
+    
+    position: absolute;
+    left: 88%;
+    top: 15%;
+    background-color: black;
+    border: none;
+    color: goldenrod;
+}
+.firebox{
+    /* background-color: red; */
+    position: relative;
+    /* left: -2.4%; */
+    left: -1rem;
+}
+.iconDiv{
+    display: flex;
+    position: relative;
+    left: .9em;
+}
+
+.passwordmargin1{
+    margin-left: 5.5%;
+}
+
+#registerInput::-webkit-outer-spin-button,
+#registerInput::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+
+@media (min-width:1440px){
+    .icon2{
+       
+        position: absolute;
+        left: 93%;
+        top: 15%;
+        background-color: black;
+        border: none;
+        color: goldenrod;
+    }
+}
+@media (max-width: 600px) {
+    .firstbox{
+        /* background-color: beige; */
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .secondbox{
+        /* background-color: rgb(179, 179, 59); */
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Register{
+        margin-top: 5%;
+    }
+    .tags60{
+        height: 5rem;
+    }
+    .inp9{
+        width: 60vw;
+    }
+    #otpCss{
+        width: 60vw;
+    }
+    .error-span-register-page , .error-span-register-page-email{
+		font-size: 12px;
+	}
+    .error1{
+        font-size: 12px;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 10px;
+    }
+	}
+@media (max-width: 250px) {
+    .tags60{
+        height: 7rem;
+    }
+}
+.error1{
+    position: relative;
+    left: 1rem;
+}
+.register31{
+   height: 3rem;
+}
+.checkboxtext9{
+    text-align: justify;
+}

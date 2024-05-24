@@ -1,0 +1,262 @@
+.login31{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    height: 100vh;
+    
+    }
+    
+    .box31{
+        width: 40vi;
+        height: 70vh;
+        /* padding: 10%; */
+        border: none;
+        background-color: black;
+        color: white;
+        border-radius: 15px;
+        padding-top: 3.5em;
+     
+    }
+    
+    .heading31{
+        color: goldenrod;
+        font-family: 'Gills Sans';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* .user31{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
+    /* .user31 label{
+        text-align: left;
+        width: 50%;
+        color: #ffd600;
+    } */
+    /* .user31 input{
+        width: 60%;
+        height: 3.5vi;
+        border-radius: 10px;
+        background-color: black;
+        border: solid;
+        border-width: 1px;
+        border-color: #ffd600; 
+        color:white;
+    } */
+    /* .pass31{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4%;
+    } */
+    /* .pass31 label{
+        text-align: left;
+        width: 50%;
+        color: #ffd600;
+        
+    } */
+    /* .pass31 input{
+        
+        width: 60%;
+        height: 3.5vi;
+        border-radius: 10px;
+        background-color: black;
+        border: solid;
+        border-width: 1px;
+        border-color: #ffd600; 
+        color:white;
+    } */
+    .signin31{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+    .signin31 button{
+            width: 30vw;
+            height: 40px;
+            border-radius: 10px;
+            color: black;
+            background-color: goldenrod;
+    }
+    .signin31 button:hover{
+        color: goldenrod;
+        background-color: black;
+        border: 1px solid goldenrod;
+        cursor: pointer;
+    }
+    
+    .bottom31{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* line-height: 0px; */
+        margin-top: 10%;
+        padding-bottom: 3.5em;
+    
+    }
+    
+    .bottom31 h3{
+        color: goldenrod;
+        font-family: 'Poppins';
+        font-weight: 200;
+        cursor: pointer;
+    }
+    /* .bottom31 a{
+        color: #ffd600;
+        font-family: 'Poppins';
+        font-weight: 200;
+    } */
+    .icon{
+        position: relative;
+        left: -1.9em;
+        border: none;
+        background-color: black;
+        color: goldenrod;
+        height: 25px;
+        /* margin-top: -1%; */
+        /* top: 5px; */
+    }
+    
+    .pass31{
+        /* background-color: azure; */
+        
+        display: flex;
+        flex-flow: row;
+        
+    }
+    .forgot31{
+        text-decoration: underline;
+        margin-top: 1%;
+    }
+    .user31{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 3%;
+    }
+    .colt{
+        display: flex;
+        flex-flow: column;
+        align-items: left;
+        justify-content:left;
+        color: goldenrod;
+        /* background-color: aqua; */
+        width: 80%;
+    }
+    .sinp{
+        width: 100%;
+        /* height: 3.5vi; */
+    
+        border-radius: 10px;
+        background-color: black;
+        border: solid;
+        border-width: 1px;
+        border-color: goldenrod; 
+        color:white;
+        
+    }
+    .rowt{
+        display: flex;
+        flex-flow: row;
+        justify-content: left;
+        align-items: center;
+        /* width: 60%; */
+        /* background-color: bisque; */
+    }
+    .sinp2{
+        /* margin-left: 5%; */
+        width: 30vw;
+        height: 5vh;
+    
+    }
+    .sinpmail{
+        height: 5vh;
+        width: 30vw;
+        /* margin-left: 5%; */
+    }
+    .passwordmargin{
+        position: relative;
+        /* left: -2%; */
+    }
+    .bottom31{
+        background-color: black;
+        padding-bottom: 2em;
+        border-radius: 20px;
+    }
+    @media  screen and (max-width:450px) {
+        .box31{
+            width: 370px;
+            padding: 2%;
+             height: 55vh;
+        }
+        .sinpmail{
+            width: 250px;
+            border-radius: 5px;
+        }
+        .user31{
+            margin-left: 3%;
+        }
+       
+        .sinp2{
+            width: 250px;
+            border-radius: 5px;
+        }
+    }
+    @media  screen and (max-width:380px) {
+        .box31{
+            width: 320px;
+            padding: 2%;
+           /* height: 70px; */
+        }
+        .sinpmail{
+            width: 250px;
+            border-radius: 5px;
+        }
+        .user31{
+            margin-left: 3%;
+        }
+       
+        .sinp2{
+            width: 250px;
+            border-radius: 5px;
+        }
+        .forgot{
+            font-size: large;
+        }
+        .forgot31{
+            font-size: large;
+        }
+    }
+    @media  screen and (max-width:330px) {
+        .box31{
+            width: 280px;
+            padding: 2%;
+           /* height: 70px; */
+        }
+        .sinpmail{
+            width: 250px;
+            border-radius: 5px;
+        }
+        .user31{
+            margin-left: 0%;
+        }
+       
+        .sinp2{
+            width: 250px;
+            border-radius: 5px;
+        }
+        .forgot{
+            font-size: large;
+        }
+        .forgot31{
+            font-size: large;
+        }
+    }

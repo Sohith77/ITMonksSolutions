@@ -1,0 +1,335 @@
+.texts3131{
+    color: black;
+    font-family: 'Inter';
+    font-size: 25px;
+    /* font-weight: 800; */
+}
+.texts3131 h1 span{
+    color: #ffd600;
+   
+    
+}
+
+@media (max-width:768px){
+
+    
+    .userdata3131{
+        max-width: 740px;
+        width: 100%;
+    }
+    .names3131{
+        max-width: 720px;
+        width: 100%;
+    }
+    .contact3131{
+        max-width: 720px;
+        width: 100%;
+    }
+    /* .Role3131{
+        max-width: 680px;
+} */
+}
+@media (max-width:425px){
+    .userdata3131{
+        max-width: 400px;
+        width: 100%;
+    }
+    .names3131{
+        max-width: 390px;
+        width: 100%;
+    }
+    .contact3131{
+        max-width: 390px;
+        width: 100%;
+    }
+    /* .Role3131{
+        max-width: 390px;
+       
+    } */
+    .texts3131 h1{
+        font-size: 5vi;
+    }
+    
+}
+@media (max-width:320px){
+    .userdata3131{
+        max-width: 290px;
+        width: 100%;
+    }
+    .names3131{
+        max-width: 290px;
+        width: 90%;
+    }
+    
+    .contact3131{
+        max-width: 290px;
+        width: 90%;
+    }
+    .contact3131 input{
+        width: 220px;
+    }
+    .contact3131 .type2531 select{
+        width: 90%;
+    }
+    /* .Role3131{
+        max-width: 290px;
+        width: 100%;
+    } */
+    
+}
+.userdata3131{
+    padding: 4%;
+}
+.names3131{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+.inpblock3131{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    min-width: 190px;
+}
+.inpblock3131 label span{
+    color: red;
+}
+.inpblock3131 input{
+    width: 90%;
+    /* min-width: 280px; */
+    height: 6vh;
+    border-radius: 10px;
+}
+
+#verifyDiv{
+    width: 90%;
+    min-width: 210px;
+    height: 6vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    /* padding-left:5.5%; */
+    /* background-color: green; */
+}
+
+#sendOtpButton3131{
+    height:6vh;
+    width: 33%;
+    min-width: 50px;
+    cursor: pointer;
+   border: none;
+    border-radius: 10px;
+    background-color: goldenrod;
+    color: black;
+}
+
+#registerInput3131{
+    height:6vh;
+    width: 33%;
+    min-width: 50px;
+  border-radius: 10px;
+  border: .5px solid grey;
+}
+
+
+#verifyOtpButton3131{
+    height:6vh;
+    width: 33%;
+    min-width: 50px;
+    /* background-color: rgb(246, 79, 79); */
+    /* margin-left: -80px; */
+    border: none; 
+    cursor: pointer;
+    border-radius: 10px; 
+}
+
+#hiddenInput {
+    width:10px; 
+    visibility: hidden;
+}
+
+.contact3131{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+.contact3131 .inpblock3125{
+    display: flex;
+    flex-direction: column;
+}
+.contact3131 .type2531{
+    display: flex;
+    flex-direction: column;
+    /* width: 40%; */
+}
+.contact3131 label span{
+    color:  red;
+}
+.contact3131 input{
+    width: 280px;
+    height: 3vi;
+    border-radius: 10px;
+}
+.contact3131 .type2531 select{
+    width: 280px;
+    height: 4vi;
+    border-radius: 10px;
+}
+.Role3131{
+    width: 95%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+.Role3131 .inpblock3121 label span {
+    color:  red;
+}
+.Role3131 .inpblock3121 input{
+    width: 100%;
+    height: 6vh;
+    border-radius: 10px;
+}
+ .selected3131 h2{
+    font-family: 'Inter';
+ }
+ .selected3131 ul{
+    list-style-type: none;
+ }
+ .selected3131 button{
+    color: black;
+    background-color: goldenrod;
+    border: none;
+    cursor: pointer;
+    padding: 1%;
+    margin-left: 5%;
+    border-radius: 5px;
+    width: 20%;
+    font-weight: 500;
+    font-size: large;
+    font-family: 'Inter';
+ }
+ .selected3131 button:hover{
+    color: goldenrod;
+    background-color: black;
+ }
+@media screen and (max-width:400px) {
+    .userdata3131{
+        padding-left: 7%;
+        margin-left: 7%  !important;
+        
+    }
+    .upload{
+        max-width: 350px !important;
+        font-size: 13px;
+        height: 250px;
+        margin-left: 2%;
+    }
+    .upload p{
+        width: 330px;
+    }
+    .checkbox12{
+        max-width: 350px !important;
+        font-size: 13px;
+        height: 300px;
+        margin-left: 2%;
+    }
+    .img313131 img{
+      margin-left: -55%;
+    }
+}
+@media screen and (max-width:355px) {
+    .userdata3131{
+        margin-left: 10% !important;
+    }
+    .inpblock3131 input{
+        width: 130px !important;
+        height: 20px;
+        border-radius: 5px;
+    }
+    #sendOtpButton3131{
+        font-size: 8px;
+    }
+    .upload{
+        max-width: 330px !important;
+        font-size: 13px;
+        height: 250px;
+        margin-left: 2%;
+    }
+    .upload p{
+        width: 310px;
+    }
+    .checkbox12{
+        max-width: 330px !important;
+        font-size: 13px;
+        height: 300px;
+        margin-left: 2%;
+    }
+    .img313131 img{
+      margin-left: -55%;
+    }
+}
+
+ @media screen and (max-width:450px) {
+    .names3131{
+        width: 400px;
+        display: flex;
+    }
+    .inpblock3131{
+        max-width: 150px;
+    }
+    .inpblock3131 input{
+        width: 150px;
+        height: 20px;
+        border-radius: 5px;
+    }
+    .userdata3131{
+        margin-left: 5%;
+    }
+    .desc31{
+        margin-left: 10%;
+    }
+    .terms31{
+        margin-left: 10%;
+    }
+    /* .checkbox12{
+        padding: 2px !important ;
+    } */
+    .ol, ul {
+        padding-left: 0rem;
+    }
+    .Role3131{
+        width: 400px;
+    }
+    .inpblock3121{
+        max-width: 190px;
+    }
+    .inpblock3121 input{
+        width: 200px !important;
+        max-height: 25px;
+        border-radius: 5px !important;
+    }
+    .userdata3131 input::placeholder{
+        font-size: 10px;
+    }
+    .upload{
+        width: 380px !important;
+        font-size: 13px;
+        height: 250px;
+    }
+    .checkbox12{
+        width: 380px !important;
+        font-size: 13px;
+        height: 300px;
+    }
+   
+    .img313131 img{
+        width: 70px !important;
+        margin-bottom: 24% !important;
+    }
+ }
+
