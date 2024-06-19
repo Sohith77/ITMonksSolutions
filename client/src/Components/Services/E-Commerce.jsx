@@ -79,7 +79,7 @@ function ECommerce() {
                                         <span className="text-slider"><img src={asterisk} alt="img" className="slider-marq-img-svs" /></span><span className="text-slider text-style">Health Care Services</span>
                                         <span className="text-slider"><img src={asterisk} alt="img" className="slider-marq-img-svs" /></span><span className="text-slider text-style">Content Writing and Moderation​</span>
                                         <span className="text-slider"><img src={asterisk} alt="img" className="slider-marq-img-svs" /></span><span className="text-slider text-style">Graphic Designing</span>
-                                        <span className="text-slider"><img src={asterisk} alt="img" className="slider-marq-img-svs" /></span><span className="text-slider text-style">E-Commerce Projects​&lt;</span>
+                                        <span className="text-slider"><img src={asterisk} alt="img" className="slider-marq-img-svs" /></span><span className="text-slider text-style">E-Commerce Projects​</span>
                                         <span className="text-slider"><img src={asterisk} alt="img" className="slider-marq-img-svs" /></span><span className="text-slider text-style">Digital Marketing​</span>
                                         <span className="text-slider"><img src={asterisk} alt="img" className="slider-marq-img-svs" /></span><span className="text-slider text-style">Non-IT Services​</span>
                                         <span className="text-slider"><img src={asterisk} alt="img" className="slider-marq-img-svs" /></span><span className="text-slider text-style">HR Services​</span>
@@ -432,7 +432,7 @@ function ECommerce() {
                                     <p> <a href="#0" className="services-bottom-underline-text-svs">E-Commerce Case Studies:<br />Driving Business Success With<br /> Technology</a> </p>
                                 </div>
                                 <div className="bottom-services-anchor1-div">
-                                    <a href="https://naturepro.shop" style={{ textDecoration: 'none' }}>
+                                    <a href="/" style={{ textDecoration: 'none' }}>
                                         <p className="bottom-services-anchor1 anchor-svs" >Visit Site Here</p>
                                     </a>
                                     <div className="services-anchor-button-svs"><FaAngleRight className="services-icons-svs" /></div>

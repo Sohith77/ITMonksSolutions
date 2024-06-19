@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link, useNavigate } from "react-router-dom";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
+import { faFilter } from "@fortawesome/free-solid-svg-icons";
 // import { jobDetails } from "../../data"; 
 import jobDescriptions from "../../../data";
 import { faComputer } from "@fortawesome/free-solid-svg-icons";
@@ -111,6 +112,24 @@ function Career() {
     type: [],
     jobloc: []
   }); 
+
+  const handleClearAll = () => {
+    const clearedFilters = {
+      category: [],
+      type: [],
+      jobloc: []
+    };
+    setFilters(clearedFilters);
+  };
+  const handleCancel = () =>{
+    const clearedFilters={
+      category: [],
+      type: [],
+      jobloc: []
+    }
+    setFilters(clearedFilters);
+    setShowFilters(!showFilters);     
+  }
   
   useEffect(() => { 
     const pageHeight = document.body.scrollHeight;
@@ -432,8 +451,21 @@ function Career() {
     }));
   };
 
+  const [filteredJobs, setFilteredJobs] = useState([]);
+  const handleApplyFilters = () => {
+
+    const filteredJobs = jobDescriptions.filter(job => {
+      const categoryMatch = filters.category.length === 0 || filters.category.includes(job.Category);
+      const typeMatch = filters.type.length === 0 || filters.type.includes(job.type);
+      const joblocMatch = filters.jobloc.length === 0 || filters.jobloc.includes(job.jobloc);
+      return categoryMatch && typeMatch && joblocMatch;
+    });
+    setFilteredJobs(filteredJobs);
+  };
+
   const handlePhoneInpValidation = ()=>{
     const phoneInputLength = phoneInputRef.current.value.length;
+    const phoneTemp = phoneInputRef.current.value;
     const firstInputValue = firstInputRef.current.value.length;
     const lastInputValue = lastnameInputRef.current.value.length;
     const emailInputValue = emailInputRef.current.value;
@@ -452,7 +484,7 @@ function Career() {
         phoneInputValidation.setAttribute('disabled',true)
         if(phoneInputLength !=10){
           phoneInputRef.current.style.borderColor = "red"
-          spanPhoneInputRef.current.innerHTML =`Invalid Phone number (Minimum 10 Digits)`
+          spanPhoneInputRef.current.innerHTML =`Invalid Phone number ${phoneTemp}`
           spanPhoneInputRef.current.style.color = "red"
         }
         else{
@@ -660,7 +692,7 @@ function Career() {
 
   const handleFileChange = (event) => {
     const files = event.target.files;
-    const fileList = Array.from(files).map(file => ({
+    const fileList = Array.from(files).filter(file => file.size <= 5242880).map(file => ({
       name: file.name,
       size: file.size,
       type: file.type,
@@ -723,6 +755,38 @@ function Career() {
 
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
+
+  /*************************hamburger model code**************************/
+  const [showFilters, setShowFilters] = useState(false);
+
+  const toggleFilters = () => {
+    setShowFilters(!showFilters);
+  };
+ 
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 450) {
+        setShowFilters(false);
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+ const [description, setDescription] = useState('Category');
+ const [activeButton, setActiveButton] = useState('Category');
+
+  const handleButtonClick=(text)=>{
+      setDescription(text);
+      setActiveButton(text);
+      
+  }
+
   return (
     <>
 
@@ -757,11 +821,93 @@ function Career() {
           className="searchinp31"
         />
         <button className="searchbtn31" onClick={updateButtonContent}>Search</button>
+        <button className="filter-btn" onClick={toggleFilters}>
+        <FontAwesomeIcon icon={faFilter} />
+        </button>
       </div>
 
 
       <div className="datablock6">
-        <div className="filter6">
+        <div className={`mobile-filter-view ${showFilters? 'active': ''}`}>
+        <div className="filters-head-mobile">
+          <h5>Filter Jobs</h5>
+          <button className="clear-all-btn-mobile-filter" onClick={handleClearAll} >clear all</button>
+        </div>
+        <hr className="hr31" />
+        <div className= "filters-for-mobiles">
+          <div className="btns3131">
+          <button className={`category3131 ${activeButton === 'Category'? 'active':''}`} onClick={()=>handleButtonClick("Category")} >Category</button>
+            <hr className="hr31" />
+            <button className={`type3131 ${activeButton === 'Type'? 'active':''}`} onClick={()=>handleButtonClick("Type")} >Type</button>
+            <hr className="hr31" />
+            <button className={`jobLOC3131 ${activeButton === 'Job Location'? 'active' : ''}`} onClick={()=>handleButtonClick("Job Location")} >Job Location</button>
+          </div>
+          <div className="divide-section" ></div>
+          <div className="mobile-filter-checkboxes">
+  {description && (
+    <div className="each-checkBoxes">
+      {description === 'Category' && (
+        <div className="Category-checkbox">
+           {Array.from(new Set(jobDescriptions.map(job => job.Category))).map(category => (
+              <label key={category}>
+                <input
+                className="filters"
+                  type="checkbox"
+                  value={category}
+                  checked={filters.category.includes(category)}
+                  onChange={() => handleCheckboxChange('category', category)}
+                />
+                {category}
+              </label>
+            ))}
+
+        </div>
+
+      )}
+      {
+        description === "Type" && (
+          <div className="Category-checkbox">
+            {Array.from(new Set(jobDescriptions.map(job => job.type))).map(type => (
+              <label key={type}>
+                <input
+                 className="filters"
+                  type="checkbox"
+                  value={type}
+                  checked={filters.type.includes(type)}
+                  onChange={() => handleCheckboxChange('type', type)}
+                />
+                {type}
+              </label>
+            ))}
+          </div>
+        )
+      }
+      {description === "Job Location" && (
+        <div className="Category-checkbox">
+           {Array.from(new Set(jobDescriptions.map(job => job.jobloc))).map(jobloc => (
+              <label key={jobloc}>
+                <input
+                 className="filters"
+                  type="checkbox"
+                  value={jobloc}
+                  checked={filters.jobloc.includes(jobloc)}
+                  onChange={() => handleCheckboxChange('jobloc', jobloc)}
+                />
+                {jobloc}
+              </label>
+            ))}
+        </div>
+      )}
+    </div>
+  )}
+</div>
+        </div>
+       <div className="bottom-mobile-filter">
+       <button className="cancel-btn3131" onClick={handleCancel}>cancel</button>
+        <button className="Apply-btn-mobile" onClick={toggleFilters}>apply</button>
+       </div>
+        </div>
+        <div  className= "filter6" >
 
 
           <hr className="hr6" />
@@ -963,7 +1109,7 @@ function Career() {
             {filteredData.length === 0 && (
               <div className="form-container">
                 <br /><br />
-                <p>There are no jobs for your search criteria.</p><br />
+                <p className="no-job-found">There are no jobs for your search criteria.</p><br />
                 <div className="refrain3131">
                   <h2>Please Refine your search</h2>
                 </div>
@@ -1005,7 +1151,7 @@ function Career() {
                             }}
 
                           />
-                          <span ref={spanFristInputRef}></span>
+                          <span className="error-span-message-forms" ref={spanFristInputRef}></span>
                         </div>
                         <div className="inpblock3131">
                           <label htmlFor="lastname">Last Name <span>*</span></label>
@@ -1025,7 +1171,7 @@ function Career() {
                               }
                             }}
                           />
-                          <span ref={spanLastNameInputRef}></span>
+                          <span className="error-span-message-forms" ref={spanLastNameInputRef}></span>
                         </div>
                       </div>
 
@@ -1048,7 +1194,7 @@ function Career() {
                               }
                             }}
                           />
-                          <span ref={spanEmailInputRef}></span>
+                          <span className="error-span-message-forms" ref={spanEmailInputRef}></span>
                         </div>
 
                         <div className="inpblock3131">
@@ -1117,7 +1263,7 @@ function Career() {
                               }
                             }}
                           />
-                          <span ref={spanRoleInputRef}></span>
+                          <span className="error-span-message-forms" ref={spanRoleInputRef}></span>
                         </div>
                       </div>
                       <div className="names3131">
@@ -1142,7 +1288,7 @@ function Career() {
                               }
                             }}
                           />
-                          <span ref={spanPhoneInputRef}></span>
+                          <span className="error-span-message-forms" ref={spanPhoneInputRef}></span>
                         </div>
                         <div className="inpblock3131">
                           <label htmlFor="CurrentCTC">Current CTC</label>
@@ -1182,7 +1328,7 @@ function Career() {
                               }
                             }}
                           />
-                          <span ref={spanStreetInnputRef}></span>
+                          <span className="error-span-message-forms" ref={spanStreetInnputRef}></span>
                         </div>
 
                         <div className="inpblock3131">
@@ -1203,7 +1349,7 @@ function Career() {
                               }
                             }}
                           />
-                          <span ref={spanCityInputRef}></span>
+                          <span className="error-span-message-forms" ref={spanCityInputRef}></span>
                         </div>
                       </div>
 
@@ -1227,7 +1373,7 @@ function Career() {
                               }
                             }}
                           />
-                          <span ref={spanCountryInputRef}></span>
+                          <span className="error-span-message-forms" ref={spanCountryInputRef}></span>
                         </div>
                         <div className="inpblock3131">
                           <label htmlFor="postalcode">Pin Code <span>*</span></label>
@@ -1247,7 +1393,7 @@ function Career() {
                               }
                             }}
                           />
-                          <span ref={spanPostalInputRef}></span>
+                          <span className="error-span-message-forms" ref={spanPostalInputRef}></span>
                         </div>
                       </div>
 
@@ -1301,7 +1447,7 @@ function Career() {
           ))}
         </ul>
       )}
-                          <span ref={spanSkillsInputRef}></span>
+                          <span className="error-span-message-forms" ref={spanSkillsInputRef}></span>
                         </div> 
                         <input id="hiddenInput"></input>
                       </div>

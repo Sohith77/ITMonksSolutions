@@ -430,10 +430,10 @@ function Contentwriting() {
                                     <p> <a href="#0" className="services-bottom-underline-text-svs">Accelerating Business Success<br/>Through IT Service Case <br/> Studies: Empowering Tech To<br/>Propel Your Growth Journey</a> </p>
                                 </div>
                                 <div className="bottom-services-anchor1-div">
-                                    <a href="http://jyotiradityascindia.in" style={{ textDecoration: 'none' }}>
+                                    <a href="/" style={{ textDecoration: 'none', marginTop:"10%" }}>
                                         <p className="bottom-services-anchor1 anchor-svs" >Visit Site Here</p>
                                     </a>
-                                    <div className="services-anchor-button-svs"><FaAngleRight className="services-icons-svs" /></div>
+                                    <div className="services-anchor-button-svs" style={{marginTop:"10%"}}><FaAngleRight className="services-icons-svs" /></div>
                                 </div>
                             </div>
                         </div>

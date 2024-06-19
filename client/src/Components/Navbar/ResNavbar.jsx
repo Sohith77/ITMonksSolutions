@@ -203,16 +203,16 @@ function MyVerticallyCenteredModal(props) {
               YOU ARE HERE
             </h6>
             <h4 className="animisld animisld1" style={{ "--i": 3 }}>
-              1 Share your idea
+              1. Share your idea
             </h4>
             <h4 className="animisld animisld1" style={{ "--i": 4 }}>
-              2 Discuss it with expert
+              2. Discuss it with expert
             </h4>
             <h4 className="animisld animisld1" style={{ "--i": 5 }}>
-              3 Get an estimation project
+              3. Get an estimation project
             </h4>
             <h4 className="animisld animisld1" style={{ "--i": 6 }}>
-              4 Start the project
+              4. Start the project
             </h4>
             <p className="animisld animisld1" style={{ "--i": 7 }}>
               If you have any questions, email us{" "}
@@ -362,16 +362,16 @@ function MyVerticallyCenteredModal(props) {
                   </div>
                 </div>
                 <div className="consultation-button" onClick={props.onHide}>
-                  <button
+                  <button 
                     style={{ "--i": 8 }}
                     onClick={() => {
                       navigate("/firstCalender");
                     }}
                   >
                     <FontAwesomeIcon
-                      icon={faCalendar}
+                      icon={faCalendar}  
                     />
-                    Book a Consultation
+                     <a style={{marginLeft:"10%"}}>Book a Consultation</a>
                   </button>
                 </div>
                 <button onClick={props.onHide} className="adjust">

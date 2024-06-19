@@ -196,7 +196,7 @@
 .last31{
     padding: 1%;
 }
-.submit{
+.submit1{
     margin-left: 60%;
     color: black;
     background-color: goldenrod;
@@ -206,9 +206,11 @@
     font-size: 1.2vi;
     font-weight: 400;
     cursor: pointer;
+    margin-bottom: 5%;
+    margin-left: 67%;
 
 }
-.submit:hover{
+.submit1:hover{
     color:goldenrod;
     background-color: black;
     font-weight: 600;
@@ -259,7 +261,7 @@
     .info31 h1{
         font-size: large;
     }
-    .submit{
+    .submit1{
         width: 160px;
         height: 20px;
         font-size: large;

@@ -91,7 +91,7 @@ function Slide() {
                             <div className="author-image-sign" data-aos="fade-up">
                                 <div>
                                     {/* <button className="button0615">Explore more about</button> */}
-                                    <a href="" className="button0615" style={{paddingTop:"7%"}}><span>Explore more about</span></a>
+                                    <a href="#scrolltofocus" className="button0615" style={{paddingTop:"7%"}}><span>Explore more about</span></a>
                                 </div>
 
 

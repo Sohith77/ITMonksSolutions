@@ -284,7 +284,7 @@ const [selectedFiles, setSelectedFiles] = useState([]);
  
     const handleFileChange = (event) => {
         const files = event.target.files;
-        const fileList = Array.from(files).map(file => ({
+        const fileList = Array.from(files).filter(file => file.size <= 5242880).map(file => ({
             name: file.name,
             size: file.size,
             type: file.type,
@@ -892,7 +892,7 @@ return (
     
   }}
 
-className="submit" ref={buttonSubmitRef} onMouseOver={handlePhoneInpValidation} id="formsubmitButton">
+className="submit1" ref={buttonSubmitRef} onMouseOver={handlePhoneInpValidation} id="formsubmitButton">
   Submit</button>
 
 

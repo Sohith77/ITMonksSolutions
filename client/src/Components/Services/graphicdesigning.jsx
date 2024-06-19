@@ -139,7 +139,7 @@ function Graphicdesigning() {
                       />
                     </span>
                     <span className="text-slider text-style">
-                      E-Commerce Projects​&lt;
+                      E-Commerce Projects​
                     </span>
                     <span className="text-slider">
                       <img
@@ -651,7 +651,7 @@ function Graphicdesigning() {
                 </div>
                 <div className="bottom-services-anchor1-div">
                   <a
-                    href="http://jyotiradityascindia.in"
+                    href="/"
                     style={{ textDecoration: "none" }}
                   >
                     <p className="bottom-services-anchor1 anchor-svs">

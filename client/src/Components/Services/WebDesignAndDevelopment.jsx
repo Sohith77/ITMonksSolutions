@@ -89,7 +89,7 @@ function WebDesignAndDevelopment() {
                                         <span class="text-slider"><img src={asterisk} alt="img" className="slider-marq-img-svs" /></span><span class="text-slider text-style">Health Care Services</span>
                                         <span class="text-slider"><img src={asterisk} alt="img" className="slider-marq-img-svs" /></span><span class="text-slider text-style">Content Writing and Moderation​</span>
                                         <span class="text-slider"><img src={asterisk} alt="img" className="slider-marq-img-svs" /></span><span class="text-slider text-style">Graphic Designing</span>
-                                        <span class="text-slider"><img src={asterisk} alt="img" className="slider-marq-img-svs" /></span><span class="text-slider text-style">E-Commerce Projects​&lt;</span>
+                                        <span class="text-slider"><img src={asterisk} alt="img" className="slider-marq-img-svs" /></span><span class="text-slider text-style">E-Commerce Projects​</span>
                                         <span class="text-slider"><img src={asterisk} alt="img" className="slider-marq-img-svs" /></span><span class="text-slider text-style">Digital Marketing​</span>
                                         <span class="text-slider"><img src={asterisk} alt="img" className="slider-marq-img-svs" /></span><span class="text-slider text-style">Non-IT Services​</span>
                                         <span class="text-slider"><img src={asterisk} alt="img" className="slider-marq-img-svs" /></span><span class="text-slider text-style">HR Services​</span>
@@ -104,8 +104,6 @@ function WebDesignAndDevelopment() {
                 </div>
 
             </div>
-
-
 
 
             <div className="services-details-svs fix-svs section-padding-svs">
@@ -475,7 +473,7 @@ function WebDesignAndDevelopment() {
 
 
 
-                                    <a href="http://jyotiradityascindia.in" style={{ textDecoration: 'none' }}>
+                                    <a href="/" style={{ textDecoration: 'none' }}>
                                         <p className="bottom-services-anchor1 anchor-svs" >Visit Site Here</p>
 
 

@@ -18,6 +18,18 @@ import {faMedal} from '@fortawesome/free-solid-svg-icons'
 import microchip from '../Photos/microchip.png'
 import circelR from '../Photos/circle.png'
 import IconMedal from '../Photos/icon.png'
+import MobileAppG from '../Photos/applicationG.png'
+import MobileAppW from '../Photos/applicationW.png'
+import healthcareG from '../Photos/healthcare.png'
+import healthcareW from '../Photos/healthcareW.png'
+import ContentW from '../Photos/content-writingW.png'
+import ContentG from '../Photos/content-writing.png'
+import GraphicG from '../Photos/graphic-design.png'
+import GraphicW from '../Photos/graphic-designW.png'
+import HrG from '../Photos/HrG.png'
+import HrW from '../Photos/HrW.png'
+import nonITG from '../Photos/interview.png'
+import nonITW from '../Photos/interviewW.png'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -133,11 +145,11 @@ function FocusServices(){
 /************* server Icon logic********** */
 
     const handleMouseHover2 = (e) => {
-        e.currentTarget.querySelector('img').src = serverC;
+        e.currentTarget.querySelector('img').src = MobileAppW;
     };
 
     const handleMouseOut2 = (e) => {
-        e.currentTarget.querySelector('img').src = serverG;
+        e.currentTarget.querySelector('img').src = MobileAppG;
     };
    
 /************* digital service Icon logic********** */
@@ -152,20 +164,66 @@ function FocusServices(){
 /************* dataScienceC Icon logic********** */
 
     const handleMouseHover4 = (e) => {
-        e.currentTarget.querySelector('img').src = dataScienceC;
+        e.currentTarget.querySelector('img').src = healthcareW;
     };
 
     const handleMouseOut4 = (e) => {
-        e.currentTarget.querySelector('img').src = dataScienceG;
+        e.currentTarget.querySelector('img').src = healthcareG;
     };
 /************* technology Icon logic********** */
 
     const handleMouseHover5 = (e) => {
-        e.currentTarget.querySelector('img').src = dataScienceC;
+        e.currentTarget.querySelector('img').src = ContentW;
     };
 
     const handleMouseOut5 = (e) => {
+        e.currentTarget.querySelector('img').src = ContentG;
+    };
+/************* graphic Icon logic********** */
+
+    const handleMouseHover6 = (e) => {
+        e.currentTarget.querySelector('img').src = GraphicW;
+    };
+
+    const handleMouseOut6 = (e) => {
+        e.currentTarget.querySelector('img').src = GraphicG;
+    };
+/************* ecommerce Icon logic********** */
+
+    const handleMouseHover7 = (e) => {
+        e.currentTarget.querySelector('img').src = dataScienceC;
+    };
+
+    const handleMouseOut7 = (e) => {
         e.currentTarget.querySelector('img').src = dataScienceG;
+    };
+   
+/************* digital Marketing Icon logic********** */
+
+    const handleMouseHover8 = (e) => {
+        e.currentTarget.querySelector('img').src = technologyC;
+    };
+
+    const handleMouseOut8 = (e) => {
+        e.currentTarget.querySelector('img').src = technologyG;
+    };
+/************* digital Marketing Icon logic********** */
+
+    const handleMouseHover9 = (e) => {
+        e.currentTarget.querySelector('img').src = nonITW;
+    };
+
+    const handleMouseOut9 = (e) => {
+        e.currentTarget.querySelector('img').src = nonITG;
+    };
+/************* digital Marketing Icon logic********** */
+
+    const handleMouseHover10 = (e) => {
+        e.currentTarget.querySelector('img').src = HrW;
+    };
+
+    const handleMouseOut10 = (e) => {
+        e.currentTarget.querySelector('img').src = HrG;
     };
    
 
@@ -185,49 +243,67 @@ function FocusServices(){
             </div>
 
             <div className="rows3131" data-aos = "fade-up" data-aos-delay="300" >
-                <div className="projectM3131" 
+               <a href="/Web Design And Development" style={{color:"black", textDecoration:"none"}}><div className="projectM3131" style={{cursor:"pointer"}}
                 onMouseOver={handleMouseHover1}
                 onMouseOut={handleMouseOut1} >
                     <img className="projectM3131Img" src={codingG} alt=""  style={{width:'60px'}}/>
-                    <h2 className="projectMnames3131">Project Management</h2>
+                    <h2 className="projectMnames3131">Web Design And Development</h2>
                     <div className="layer3131"></div>
-                </div>
-                <div className="AppDev3131" 
+                </div></a> 
+               <a href="/Mobile Application Development" style={{color:"black", textDecoration:"none"}}><div className="AppDev3131"  style={{cursor:"pointer"}}
                  onMouseEnter={handleMouseHover2}
                  onMouseLeave={handleMouseOut2} >
-                    <img src={serverG} alt=""  style={{width: '60px'}}/>
-                    <h2 className="projectMnames3131">App Development</h2>
-                </div>
-                <div className="software3131" 
+                    <img src={MobileAppG} alt=""  style={{width: '60px'}}/>
+                    <h2 className="projectMnames3131">Mobile Application Development</h2>
+                </div></a> 
+                <a href="/Testing Services" style={{color:"black", textDecoration:"none"}}><div className="software3131"  style={{cursor:"pointer"}}
                  onMouseEnter={handleMouseHover3}
                  onMouseLeave={handleMouseOut3} >
                     <img src={digitalServicesG} alt=""  style={{width: '60px'}}/>
-                    <h2 className="projectMnames3131">IT Software Development</h2>
-                </div>
-                <div className="website3131"
+                    <h2 className="projectMnames3131">Testing Services</h2>
+                </div></a>
+                <a href="/Health Care Services" style={{color:"black", textDecoration:"none"}}><div className="website3131" style={{cursor:"pointer"}}
                  onMouseEnter={handleMouseHover4}
                  onMouseLeave={handleMouseOut4}  >
-                    <img src={dataScienceG} alt=""  style={{width: '60px'}}/>
-                    <h2 className="projectMnames3131">Website Design And Development</h2>
-                </div>
-                <div className="technology3131" 
+                    <img src={healthcareG} alt=""  style={{width: '60px'}}/>
+                    <h2 className="projectMnames3131">Health Care Services</h2>
+                </div></a>
+                <a href="/Content Writing And Moderation" style={{color:"black", textDecoration:"none"}}><div className="technology3131"  style={{cursor:"pointer"}}
                  onMouseEnter={handleMouseHover5}
                  onMouseLeave={handleMouseOut5} >
-                    <img src={technologyG} alt=""  style={{width: '60px'}}/>
-                    <h2 className="projectMnames3131">Marketing Services</h2>
-                </div>
-                <div className="Resource3131" 
-                 onMouseEnter={handleMouseHover1}
-                 onMouseLeave={handleMouseOut1} >
-                    <img src={serverG} alt=""  style={{width: '60px'}}/>
-                    <h2 className="projectMnames3131">HR Resources And Development</h2>
-                </div>
-                <div className="ServicesHR3131" 
-                 onMouseEnter={handleMouseHover5}
-                 onMouseLeave={handleMouseOut5}  >
+                    <img src={ContentG} alt=""  style={{width: '60px'}}/>
+                    <h2 className="projectMnames3131">Content Writting And Moderation</h2>
+                </div></a>
+               <a href="/Graphic Designing" style={{color:"black", textDecoration:"none"}}><div className="Resource3131"  style={{cursor:"pointer"}}
+                 onMouseEnter={handleMouseHover6}
+                 onMouseLeave={handleMouseOut6} >
+                    <img src={GraphicG} alt=""  style={{width: '60px'}}/>
+                    <h2 className="projectMnames3131">Graphic Designing</h2>
+                </div></a> 
+                <a href="/E-Commerce" style={{color:"black", textDecoration:"none"}}><div className="ServicesHR3131"  style={{cursor:"pointer"}}
+                 onMouseEnter={handleMouseHover7}
+                 onMouseLeave={handleMouseOut7}  >
+                    <img src={dataScienceG} alt=""  style={{width: '60px', color:"goldenrod"}}/>
+                    <h2 className="projectMnames3131">E-Commerce</h2>
+                </div></a>
+                <a href="/Digital Marketing" style={{color:"black", textDecoration:"none"}}><div className="ServicesHR3131"  style={{cursor:"pointer"}}
+                 onMouseEnter={handleMouseHover8}
+                 onMouseLeave={handleMouseOut8}  >
                     <img src={technologyG} alt=""  style={{width: '60px', color:"goldenrod"}}/>
+                    <h2 className="projectMnames3131">Digital Marketing</h2>
+                </div></a>
+                <a href="/Non-IT Services" style={{color:"black", textDecoration:"none"}}><div className="ServicesHR3131"  style={{cursor:"pointer"}}
+                 onMouseEnter={handleMouseHover9}
+                 onMouseLeave={handleMouseOut9}  >
+                    <img src={nonITG} alt=""  style={{width: '60px', color:"goldenrod"}}/>
+                    <h2 className="projectMnames3131">Non-IT Services</h2>
+                </div></a>
+                <a href="/HR Services" style={{color:"black", textDecoration:"none"}}><div className="ServicesHR3131"  style={{cursor:"pointer"}}
+                 onMouseEnter={handleMouseHover10}
+                 onMouseLeave={handleMouseOut10}  >
+                    <img src={HrG} alt=""  style={{width: '60px', color:"goldenrod"}}/>
                     <h2 className="projectMnames3131">HR Services</h2>
-                </div>
+                </div></a>
             </div>
             <div className= "content3131">
                 <div className="leftContent3131">

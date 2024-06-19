@@ -95,8 +95,8 @@ function ContactUs() {
                                                 </div>
                                                 <div class="contentc">
                                                     <h5 className="heading5  heading-for-all"> Phone</h5>
-                                                    <a href="tel:+09354587874" className="abcd mini-paras-c">+91 8247490051 </a> <br />
-                                                    <a href="tel:+01368567894" className="abcd mini-paras-c">+91 9542531656 </a>
+                                                    <a href="tel:+09354587874" className="abcd mini-paras-c">+91 9700709699 </a> <br />
+                                                    {/* <a href="tel:+01368567894" className="abcd mini-paras-c">+91 9542531656 </a> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -110,7 +110,8 @@ function ContactUs() {
                                                 </div>
                                                 <div class="contentc">
                                                     <h5 className="heading5  heading-for-all">Email</h5>
-                                                    <a href="mailto:aziz.hussain@itmonkssolutions.com" class="link" className="abcd mini-paras-c">supriya.chunduru@itmonkssolutions.com</a> <br />
+                                                    <a href="mailto:supriya.chunduru@itmonkssolutions.com" class="link" className="abcd mini-paras-c">supriya.chunduru@itmonkssolutions.com</a> <br />
+                                                    <a href="mailto:careers@itmonkssolutions.com" class="link" className="abcd mini-paras-c">careers@itmonkssolutions.com</a> <br />
                                                 </div>
                                             </div>
                                         </div>

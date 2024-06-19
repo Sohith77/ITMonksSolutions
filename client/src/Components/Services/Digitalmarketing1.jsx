@@ -79,7 +79,7 @@ function Digitalmarketing1() {
                                         <span className="text-slider"><img src={asterisk} alt="img" className="slider-marq-img-svs" /></span><span className="text-slider text-style">Health Care Services</span>
                                         <span className="text-slider"><img src={asterisk} alt="img" className="slider-marq-img-svs" /></span><span className="text-slider text-style">Content Writing and Moderation​</span>
                                         <span className="text-slider"><img src={asterisk} alt="img" className="slider-marq-img-svs" /></span><span className="text-slider text-style">Graphic Designing</span>
-                                        <span className="text-slider"><img src={asterisk} alt="img" className="slider-marq-img-svs" /></span><span className="text-slider text-style">E-Commerce Projects​&lt;</span>
+                                        <span className="text-slider"><img src={asterisk} alt="img" className="slider-marq-img-svs" /></span><span className="text-slider text-style">E-Commerce Projects​</span>
                                         <span className="text-slider"><img src={asterisk} alt="img" className="slider-marq-img-svs" /></span><span className="text-slider text-style">Digital Marketing​</span>
                                         <span className="text-slider"><img src={asterisk} alt="img" className="slider-marq-img-svs" /></span><span className="text-slider text-style">Non-IT Services​</span>
                                         <span className="text-slider"><img src={asterisk} alt="img" className="slider-marq-img-svs" /></span><span className="text-slider text-style">HR Services​</span>
@@ -430,10 +430,10 @@ function Digitalmarketing1() {
                                     <p> <a href="#0" className="services-bottom-underline-text-svs">Digital Marketing Case Studies:<br/>Achieving Business Success <br/> Through Technological<br/>Advancements</a> </p>
                                 </div>
                                 <div className="bottom-services-anchor1-div">
-                                    <a href="http://jyotiradityascindia.in" style={{ textDecoration: 'none' }}>
+                                    <a href="/" style={{ textDecoration: 'none', marginTop:"10%" }}>
                                         <p className="bottom-services-anchor1 anchor-svs" >Visit Site Here</p>
                                     </a>
-                                    <div className="services-anchor-button-svs"><FaAngleRight className="services-icons-svs" /></div>
+                                    <div className="services-anchor-button-svs" style={{marginTop:"10%"}}><FaAngleRight className="services-icons-svs" /></div>
                                 </div>
                             </div>
                         </div>

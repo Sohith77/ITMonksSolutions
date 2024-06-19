@@ -113,7 +113,7 @@ function PremiumServices() {
                         </div>
                         <div className="premium-services-button-div">
                             {/* <button className="premium-services-button">Explore Our Service <span className="arrow-icon"><IoIosArrowForward /></span> </button> */}
-                            <a href="" className="premium-services-button"><span>Explore Our Service<span className="arrow-icon"><IoIosArrowForward /></span></span></a>
+                            <a href="#scrolltofocus" className="premium-services-button"><span>Explore Our Service<span className="arrow-icon"><IoIosArrowForward /></span></span></a>
 
                         </div>
                     </div>

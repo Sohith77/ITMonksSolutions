@@ -17,7 +17,7 @@ const Slide = () => {
                         <div className="animi1">
                             <h1 className="expertise"> Empower Your business Journey with it Expertise</h1>
                         </div>
-                        <button className="Explore" id="exploreBtnId">Explore Our Service</button>
+                        {/* <button className="Explore" id="exploreBtnId">Explore Our Service</button> */}
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -29,9 +29,9 @@ const Slide = () => {
                         <div className="animi1">
                             <h1 className="expertise"> Empower Your business Journey with it Expertise</h1>
                         </div>
-                        <div className="explorebutton">
+                        {/* <div className="explorebutton">
                             <button className="Explore" >Explore Our Service</button>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -44,7 +44,7 @@ const Slide = () => {
                         <div className="animi1">
                             <h1 className="expertise"> Empower Your business Journey with it Expertise</h1>
                         </div>
-                        <button className="Explore">Explore Our Service</button>
+                        {/* <button className="Explore">Explore Our Service</button> */}
                     </div>
                 </div>
             </div>
